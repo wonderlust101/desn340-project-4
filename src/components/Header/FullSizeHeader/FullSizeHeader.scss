@@ -1,0 +1,15 @@
+.fullSizeHeader {
+  &__nav {
+  }
+  
+  &__links {
+    display: flex;
+    gap: 3rem;
+    
+    & > * {
+      font-family: "Newake", sans-serif;
+      font-size: 1.25rem;
+      letter-spacing: 0.0625rem;
+    }
+  }
+}

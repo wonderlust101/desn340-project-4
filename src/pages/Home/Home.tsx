@@ -1,9 +1,14 @@
-import './Home.scss'
+import "./Home.scss";
+import Header from "../../components/Header/Header";
+import Hero from "./Hero/Hero";
 
 export default function Home() {
+    document.title = "Bike Edmonton | Home";
+
     return (
-        <div>
-            <p>I want to die inside.</p>
-        </div>
-    )
+        <main>
+            <Header/>
+            <Hero/>
+        </main>
+    );
 }

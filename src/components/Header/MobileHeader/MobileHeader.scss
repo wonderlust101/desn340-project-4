@@ -1,0 +1,32 @@
+.mobile-header {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 96px; //Header Height 
+  background-color: white;
+
+  &__menu-icon {
+    position: relative;
+    z-index: 101;
+  }
+  
+  &__links {
+    padding: 5rem 0;
+    place-self: flex-start;
+    display: grid;
+    align-content: space-between;
+    height: 100%;
+    
+    & > * {
+      font-family: "Newake", sans-serif;
+      font-size: 1.75rem;
+      letter-spacing: 0.0625rem;
+      text-align: center;
+    }
+  }
+}
