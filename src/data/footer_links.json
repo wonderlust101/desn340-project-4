@@ -1,0 +1,173 @@
+[
+  {
+    "header": "SERVICE",
+    "href": "#",
+    "subLinks": [
+      {
+        "header": "FACILITY BOOKINGS",
+        "href": "#"
+      },
+      {
+        "header": "LUNCH & LEARN PRESENTATION",
+        "href": "#"
+      },
+      {
+        "header": "RENT A MECHANIC",
+        "href": "#"
+      },
+      {
+        "header": "BIKE GENERATOR RENTAL",
+        "href": "#"
+      },
+      {
+        "header": "BIKE RACK SALES & RENTALS",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "header": "WORKSHOP",
+    "href": "#",
+    "subLinks": [
+      {
+        "header": "HOURS & LOCATIONS",
+        "href": "#"
+      },
+      {
+        "header": "MAKE AN APPOINTMENT",
+        "href": "#"
+      },
+      {
+        "header": "COURSES",
+        "href": "#"
+      },
+      {
+        "header": "VOLUNTEER",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "header": "BIKE SHOP",
+    "href": "#",
+    "subLinks": [
+      {
+        "header": "REFURBISHED BIKES FOR SALE",
+        "href": "#"
+      },
+      {
+        "header": "AS-IS BIKES FOR SALE",
+        "href": "#"
+      },
+      {
+        "header": "PARTS & ACCESSORIES FOR SALE",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "header": "RESOURCES",
+    "href": "#",
+    "subLinks": [
+      {
+        "header": "BIKE REGISTRY & STOLEN BIKES",
+        "href": "#"
+      },
+      {
+        "header": "MAPS & ROUTE FINDER",
+        "href": "#"
+      },
+      {
+        "header": "LAWS, REGULATIONS, AND SAFETY",
+        "href": "#"
+      },
+      {
+        "header": "BICYCLE COUNTS",
+        "href": "#"
+      },
+      {
+        "header": "BIKES ON TRANSIT",
+        "href": "#"
+      },
+      {
+        "header": "WEATHER IN EDMONTON",
+        "href": "#"
+      },
+      {
+        "header": "GHOST BIKES",
+        "href": "#"
+      },
+      {
+        "header": "VOTING",
+        "href": "#"
+      },
+      {
+        "header": "LIBRARY",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "header": "ABOUT",
+    "href": "#",
+    "subLinks": [
+      {
+        "header": "VISION | MISSION | OBJECTIVE",
+        "href": "#"
+      },
+      {
+        "header": "IN THE MEDIA",
+        "href": "#"
+      },
+      {
+        "header": "NEWSLETTERS",
+        "href": "#"
+      },
+      {
+        "header": "MEMBERSHIP",
+        "href": "#"
+      },
+      {
+        "header": "MAKE A FINANCIAL DONATION",
+        "href": "#"
+      },
+      {
+        "header": "DONATE YOUR USED BIKE",
+        "href": "#"
+      },
+      {
+        "header": "OUR STAFF",
+        "href": "#"
+      },
+      {
+        "header": "BOARD & GOVERNANCE",
+        "href": "#"
+      },
+      {
+        "header": "CALENDAR",
+        "href": "#"
+      },
+      {
+        "header": "FUNDERS & SPONSORS",
+        "href": "#"
+      },
+      {
+        "header": "HISTORY",
+        "href": "#"
+      },
+      {
+        "header": "HELP CENTER",
+        "href": "#"
+      },
+      {
+        "header": "CONTACT US",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "header": "BLOG",
+    "href": "#",
+    "subLinks": []
+  }
+]

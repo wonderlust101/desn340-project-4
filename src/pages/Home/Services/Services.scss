@@ -1,0 +1,63 @@
+.services {
+  grid-area: 3/2;
+  display: grid;
+  gap: 1.5rem;
+
+  @include breakpoint(medium) {
+    gap: 3rem;
+  }
+
+  &__content {
+    display: grid;
+  }
+
+  &__grid {
+    display: grid;
+    gap: 2rem;
+
+    @include breakpoint(medium) {
+      gap: unset;
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    & > * {
+      display: grid;
+      gap: 1.5rem;
+      justify-items: center;
+
+      @include breakpoint(medium) {
+        grid-template-rows: max-content 1fr;
+        justify-items: flex-start;
+      }
+
+      & > img {
+        height: 15rem;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+
+        @include breakpoint(medium) {
+          height: 40rem;
+        }
+      }
+
+      & > h3 {
+        @include breakpoint(medium) {
+          padding: 0 1rem 6rem;
+        }
+      }
+    }
+
+    & > *:not(:last-child) {
+      @include breakpoint(medium) {
+        border-right: solid 1px $clr-black;
+      }
+    }
+  }
+
+  &__divider {
+    @include breakpoint(medium) {
+      display: none;
+    }
+  }
+}

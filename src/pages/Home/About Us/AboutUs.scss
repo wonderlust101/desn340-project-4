@@ -1,0 +1,60 @@
+.about-us {
+  grid-area: 2/2;
+  display: grid;
+  gap: 1.5rem;
+  margin-top: -2rem;
+
+  @include breakpoint(medium) {
+    gap: 3rem;
+    margin-top: unset;
+  }
+
+  &__content {
+    display: grid;
+    grid-template: max-content max-content / 1fr;
+
+    @include breakpoint(medium) {
+      grid-template: 1fr / 1.5fr 1fr;
+    }
+  }
+
+  &__img {
+    grid-area: 1/1;
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+
+    @include breakpoint(medium) {
+      grid-area: 1/2;
+      height: 55rem;
+    }
+  }
+
+  &__text-column {
+    grid-area: 2/1;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    @include breakpoint(medium) {
+      grid-area: 1/1;
+    }
+
+    & > * {
+      display: grid;
+      gap: 1rem;
+      align-content: center;
+      padding: 3rem 2rem;
+    }
+
+    & > *:nth-child(1) {
+      @include breakpoint(medium) {
+        border-top: solid black 1px;
+      }
+    }
+
+    & > *:nth-child(2) {
+      border-top: solid black 1px;
+      border-bottom: solid black 1px;
+    }
+  }
+}

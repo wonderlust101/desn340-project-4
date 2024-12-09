@@ -1,30 +1,31 @@
 .mobile-header {
   display: grid;
-  align-items: center;
   justify-content: center;
-  width: 100vw;
-  height: 100vh;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: 96px; //Header Height 
-  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  padding: 10rem;
+  background-color: $clr-white;
 
   &__menu-icon {
     position: relative;
-    z-index: 101;
+    z-index: 100;
   }
   
   &__links {
-    padding: 5rem 0;
     place-self: flex-start;
     display: grid;
+    justify-items: center;
     align-content: space-between;
+    padding: 5rem 0;
     height: 100%;
     
-    & > * {
+    & > * a{
       font-family: "Newake", sans-serif;
-      font-size: 1.75rem;
+      font-size: 2rem;
       letter-spacing: 0.0625rem;
       text-align: center;
     }

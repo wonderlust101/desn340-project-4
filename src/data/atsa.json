@@ -1,0 +1,138 @@
+[
+  {
+    "header": "Introduction",
+    "text": [
+      "The Traffic Safety Act (TSA) and its associated regulations govern cyclists’ use of highways in Alberta.",
+      {
+        "beforeText": "It applies, in general, to highways, which are defined as:",
+        "content": [
+          "(p) “highway” means any thoroughfare, street, road, trail, avenue, parkway, driveway, viaduct, lane, alley, square, bridge, causeway, trestleway or other place or any part of any of them, whether publicly or privately owned, that the public is ordinarily entitled or permitted to use for the passage or parking of vehicles and includes:",
+          [
+            "(i) a sidewalk, including a boulevard adjacent to the sidewalk,",
+            "(ii) if a ditch lies adjacent to and parallel with the roadway, the ditch, and",
+            "(iii) if a highway right of way is contained between fences or between a fence and one side of the roadway, all the land between the fences, or all the land between the fence and the edge of the roadway, as the case may be,"
+          ],
+          "but does not include a place declared by regulation not to be a highway."
+        ]
+      },
+      "Rules of the road are mainly not written in the Act itself, but rather are part of the regulations, which define the application and enforcement of the legislation."
+    ]
+  },
+  {
+    "header": "Alberta Regulation 304/2002",
+    "subHeader": "Use of Highway and Rules of the Road Regulation",
+    "text": [
+      "Bicycles are not motor vehicles, but all the rules of the road that apply to all vehicles (as opposed to exclusively motor vehicles) also apply to bicycles. Below are some of the laws that are specific to bicycles.",
+      {
+        "header": "Use of lamps, etc.",
+        "content": [
+          "55(1) At any time on a highway during the period of night time or when, due to insufficient light or unfavourable atmospheric conditions, objects are not clearly discernible on the highway at a distance of at least 150 metres ahead, a person shall not do any of the following:",
+          [
+            "(b) have a bicycle in motion on the highway unless the lamp or lamps with which the bicycle is required to be equipped are alight;",
+            "(d) have a vehicle in motion on the highway unless,",
+            [
+              "(i) in the case of a self‑propelled vehicle that is less than 0.8 metres in overall width, the vehicle is equipped with one headlamp that complies with the requirements of the Vehicle Equipment Regulation and that is alight,",
+              "(ii) in the case of a self‑propelled vehicle that is 0.8 metres or more in overall width, the vehicle is equipped with 2 headlamps that comply with the requirements of the Vehicle Equipment Regulation and that are alight"
+            ],
+            "(e) have a vehicle, other than a cycle, on the highway unless the vehicle is equipped with 2 reflectors that are located at the rear of the vehicle and that are",
+            [
+              "(i) of a type required by the Vehicle Equipment Regulation, and",
+              "(ii) affixed as required by the Vehicle Equipment Regulation so as to reflect the lights of any motor vehicle approaching from the rear;"
+            ],
+            " (f) have a cycle on the highway unless the cycle is equipped with one reflector that is located at the rear of the cycle",
+            [
+              "(i) of a type required by the Vehicle Equipment Regulation, and",
+              "(ii) affixed as required by the Vehicle Equipment Regulation so as to reflect the lights of any motor vehicle approaching from the rear;"
+            ]
+          ]
+        ]
+      },
+      {
+        "header": "Rights and duties of operator",
+        "content": [
+          "75 Unless the context otherwise requires, a person who is operating a cycle on a highway has all the rights and is subject to all the duties of a person driving a motor vehicle under Part 1 and this Part and Division 2 of Part 5 of the Act."
+        ]
+      },
+      {
+        "header": "Operation of cycle",
+        "content": [
+          "77(1) A person who is operating a cycle on a highway",
+          [
+            "(a) shall keep both hands on the handlebars of the cycle, except when making a signal in accordance with this Regulation or shifting the gears of the cycle,",
+            "(b) shall keep both feet on the pedals or foot rests of the cycle other than when stopped,",
+            "(c) shall not ride other than on or astride a regular seat of the cycle, and",
+            "(d) shall not use the cycle to carry more persons at one time than the number for which the cycle is designed and equipped."
+          ],
+          "(2) A person who is operating a cycle, other than a motor cycle, on a highway shall operate the cycle as near as practicable to the right curb or edge of the roadway unless that person is in the process of making a left turn with the cycle.",
+          "(3) Notwithstanding subsection (2), a person who is operating a cycle, other than a motor cycle, on a one-way highway in an urban area shall ride as near as practicable to either curb or edge of the roadway unless that person is in the process of crossing from one curb or edge of the roadway to the opposite curb or edge of the roadway.",
+          "(4)  Notwithstanding subsection (2), a person who is operating a cycle, other than a motorcycle, on a highway that has shoulders",
+          [
+            "(a) in the case of a highway that has paved shoulders, shall operate the cycle on the right shoulder, and",
+            "(b) in the case of a highway that does not have paved shoulders, shall operate the cycle as far to the right of the roadway as practicable,"
+          ],
+          "unless that person is in the process of making a left turn.",
+          "(5) A person who is riding as a passenger on a cycle",
+          [
+            "(a) shall not ride other than on a regular seat of the cycle that is designed to be used by a passenger, and",
+            "(b) shall keep both feet on the foot rests provided for the use of the passenger riding on the seat."
+          ]
+        ]
+      },
+      {
+        "header": "Travel single file",
+        "content": [
+          "78 A person who is operating a cycle on a highway in the same direction in the same traffic lane, except when overtaking and passing another cycle,",
+          [
+            "(a) shall not operate the cycle adjacent to another cycle travelling in the same direction, and",
+            "(b) in the case of a cycle other than a motor cycle, where more than one cycle is travelling in the near vicinity of and in the same direction as another cycle, shall operate the cycle directly in line with and to the rear or front of the other cycle."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "header": "Alberta Regulation 122/2009",
+    "subHeader": "Vehicle Equipment Regulation",
+    "text": [
+      {
+        "header": "Cycle headlamps",
+        "content": [
+          "10(1) A cycle must have at least one headlamp."
+        ]
+      },
+      {
+        "header": "Horn, bell",
+        "content": [
+          "60 A motor vehicle, power bicycle and bicycle must have a horn or bell."
+        ]
+      },
+      {
+        "header": "Bicycle safety helmet",
+        "content": [
+          "111(1) No person who is less than 18 years old shall operate or ride as a passenger on a bicycle unless that person is properly wearing a safety helmet.",
+          "(2) A parent or guardian of a person who is less than 18 years old shall not authorize or knowingly permit the person to operate or ride as a passenger on a bicycle unless that person is properly wearing a safety helmet.",
+          "(3) No person shall operate a bicycle on which a passenger who is less than 18 years old is riding unless the passenger is properly wearing a safety helmet."
+        ]
+      },
+      {
+        "header": "Bicycle equipment",
+        "content": [
+          "113(1) A person shall not ride a bicycle at nighttime unless the bicycle has the following:",
+          [
+            "(a) at least one headlamp but not more than 2 headlamps;",
+            "(b) at least one red tail lamp;",
+            "(c) at least one red reflector mounted on the rear."
+          ],
+          "(2) A person shall not ride a bicycle unless the bicycle has a brake."
+        ]
+      }
+    ]
+  },
+  {
+    "header": "Specified Penalty Listing",
+    "subHeader": "Alberta Specific Penalty Listing - April 2020",
+    "text": [
+      "The contents of this booklet consist primarily of a listing of all offences under the Statutes and Regulations of Alberta having specified penalties prescribed under the Procedures Regulation (AR 63/2017, as amended)."
+    ]
+  }
+]

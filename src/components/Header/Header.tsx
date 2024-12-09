@@ -1,8 +1,8 @@
 import "./Header.scss";
 import {useState} from "react";
-import useWindowDimensions from "../../hooks/useWindowDimensions.tsx";
-import FullSizeHeader from "./FullSizeHeader/FullSizeHeader";
-import MobileHeader from "./MobileHeader/MobileHeader";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
+import FullSizeHeader from "./FullSizeHeader";
+import MobileHeader from "./MobileHeader";
 
 type link = {
     location: string;
@@ -47,7 +47,7 @@ export default function Header() {
     return (
         <header className="header grid-bleed">
             <div className="header__content">
-                <h1 className='header__logo'>Bike Edmonton</h1>
+                <p className='header__logo'>Bike Edmonton</p>
 
                 {width >= 1312 ? (
                     <FullSizeHeader links={links}/>

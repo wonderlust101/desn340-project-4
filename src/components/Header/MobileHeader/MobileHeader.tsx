@@ -1,4 +1,5 @@
 import React from "react";
+import closeIcon from "/src/assets/images/icon-close.svg";
 import burgerIcon from "/src/assets/images/icon-hamburger.svg";
 import "./MobileHeader.scss";
 
@@ -18,8 +19,8 @@ export default function MobileHeader({links, onClick, isOpen}: headerListProps) 
     return (
         <div>
             <img
-                className="mobile-header__menu-icon"
-                src={burgerIcon}
+                className={"mobile-header__menu-icon"}
+                src={isOpen ? closeIcon : burgerIcon}
                 alt=""
                 role="presentation"
                 onClick={onClick}/>

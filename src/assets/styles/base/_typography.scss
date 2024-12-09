@@ -1,8 +1,43 @@
 @use '../abstract/index' as a;
 
-h1, h2, h3, h4,
-h5, h6, p {
+// Font Groups
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Newake', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.0875rem;
+}
+
+h3, h4, h5, h6 {
+  letter-spacing: 0.0625rem;
+}
+
+p, a, button, ul, ol {
   font-family: 'Outfit', sans-serif;
+}
+
+// Individual Sizes
+
+h2 {
+  font-size: 1.75rem;
+  
+  @include a.breakpoint(medium) {
+    font-size: 2.5rem;
+  }
+}
+
+h3 {
+  font-size: 1.15rem;
+  
+  @include a.breakpoint(medium) {
+    font-size: 1.75rem;
+  }
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 a {
