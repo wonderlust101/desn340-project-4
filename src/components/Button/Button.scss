@@ -4,10 +4,12 @@
   display: block;
   width: max-content;
   padding: 0.9rem 1.5rem;
-  font-weight: 700;
   cursor: pointer;
   transition: 0.15s;
   border: none;
+  font-family: "Newake", sans-serif;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
 
   &--wide {
     padding: 0.9rem 2rem;
