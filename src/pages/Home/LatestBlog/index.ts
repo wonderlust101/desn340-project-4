@@ -1,3 +1,3 @@
-import LatestBlog from "./LatestBlog.tsx";
+import LatestBlog from "./LatestBlog";
 
 export default LatestBlog;

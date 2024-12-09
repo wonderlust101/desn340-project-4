@@ -1,3 +1,3 @@
-import FAQ from "./FAQ.tsx";
+import FAQ from "./FAQ";
 
 export default FAQ;

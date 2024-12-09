@@ -1,3 +1,3 @@
-import BikeShop from "./BikeShop.tsx";
+import BikeShop from "./BikeShop";
 
 export default BikeShop;

@@ -1,3 +1,3 @@
-import HelpTopics from "./HelpTopics.tsx";
+import HelpTopics from "./HelpTopics";
 
 export default HelpTopics;

@@ -1,3 +1,3 @@
-import TopicSearch from "./TopicSearch.tsx";
+import TopicSearch from "./TopicSearch";
 
 export default TopicSearch;

@@ -1,3 +1,3 @@
-import SectionHero from "./SectionHero.tsx";
+import SectionHero from "./SectionHero";
 
 export default SectionHero;
