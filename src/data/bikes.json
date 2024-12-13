@@ -1,0 +1,44 @@
+[
+  {
+    "imgURL": "public/images/bikes/norco-multi-track.png",
+    "name": "Norco Multi Track",
+    "type": "Hybrid",
+    "price": 390,
+    "content": "This hybrid will make a good 4 season commuter for someone looking for a bike that can be economically maintained. Features thumb shifters for maximum ease of shifting with mittens, a riser stem for a natural feeling riding position, and a body geometry saddle that will keep you astride for hours. One of the best examples of stripped down utility on two wheels you'll find."
+  },
+  {
+    "imgURL": "public/images/bikes/salsa-mukluk.jpg",
+    "name": "Salsa Mukluk",
+    "type": "Mountain",
+    "price": 785,
+    "content": "Are you looking for the ultimate two-wheeled snow machine in your near future? Here’s your chance to own a fat bike! Whether you are hitting the singletrack in a winter wonderland rolling unbothered over brown sugar, or just want to casually pass every slipping sliding stuck car on the half dozen or so snow days Edmonton averages each winter, you’ll have a blast doing it on 4 inch wide studded tires. Features swayback handlebars for an upright riding position that’s easy on the wrists and a 3×9 drive train with gearing low enough to climb walls."
+  },
+  {
+    "imgURL": "public/images/bikes/kuwahara-butte.jpg",
+    "name": "Kuwahara Butte",
+    "type": "Mountain",
+    "price": 335,
+    "content": "Steel framed rigid mountain bikes from ‘80s are the Energizer Bunnies of the cycling the world - they just keep going and going and going… The bombproof Suntour friction shifters harken back to another age, when companies built their market on quality, and plastic parts were a no-no. Unfortunately for Suntour, people rarely had to replace their parts, and they were eventually outcompeted by companies who promoted the next flavour of the week, planned obsolescence, and yearly upgrades to the new shiny thing. Complete with full fenders, this will make an excellent 4 season commuter and all-round, all-purpose, all-terrain bicycle."
+  },
+  {
+    "imgURL": "public/images/bikes/jamis-explorer-3.0.jpg",
+    "name": "Jamis Explorer 3.0",
+    "type": "Hybrid",
+    "price": 395,
+    "content": "More upright than your average hardtail, this bike is a great choice for casual cruising through the city and the countryside, a short to medium distance commute, or recreational riding with friends and family. Fully tuned and in decent condition, it features lots of gear range to take on any river valley hill, and hybrid tires to make street riding the smoothest, fastest breeze."
+  },
+  {
+    "imgURL": "public/images/bikes/trek-820.jpg",
+    "name": "Trek 820",
+    "type": "Mountain",
+    "price": 495,
+    "content": "For anyone aged millennial or younger, the default style of bike has always been mountain bike, no matter where it was being ridden. This hardtail is a good example of a mountain bike that wasn't designed for hard riding on mountain egresses, but will still make for great all terrain recreational romps. It has enough gear range, traction , and suspension travel to handle exploring most anything in the river valley, without being so overbuilt to be overkill for riding on the road. Features modern geometry with wide handlebars and a slightly upright riding position."
+  },
+  {
+    "imgURL": "public/images/bikes/trek-820-single-track.jpg",
+    "name": "Trek 820 Single Track",
+    "type": "All-Terrain",
+    "price": 345,
+    "content": "On the trails and on the streets, this hardtail is a fun, all terrain ride ready to take on any side quest or impromptu exploration in the city, the river valley, and beyond. A great choice for all purpose recreation, or for getting from A to B for folks who prefer a mountain bike to a city bike."
+  }
+]

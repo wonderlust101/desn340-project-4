@@ -1,6 +1,9 @@
 import "./FeaturedBikes.scss";
 import BikeDetails from "../../../components/BikeDetails";
 import Button from "../../../components/Button";
+import bikesJson from "../../../data/bikes.json";
+
+const bikes: Bike[] = bikesJson;
 
 export default function FeaturedBikes() {
 
@@ -11,12 +14,19 @@ export default function FeaturedBikes() {
             <div className="featured-bikes__content">
                 <div className="featured-bikes__carousel">
                     <div className="featured-bikes__carousel-content">
-                        <BikeDetails/>
-                        <BikeDetails/>
-                        <BikeDetails/>
-                        <BikeDetails/>
-                        <BikeDetails/>
-                        <BikeDetails/>
+                        {bikes.map((bikes, index) => (
+                            <BikeDetails
+                                key={index}
+                                imgURL={bikes.imgURL}
+                                name={bikes.name}
+                                type={bikes.type}
+                                price={bikes.price}
+                                content={bikes.content}
+                                showQuickView={false}
+                            />
+
+                        ))}
+                        
                         <section className="latest-blog__view-all">
                             <h2>View All</h2>
                             <Button variant="button--white">View Used Bike Shop</Button>

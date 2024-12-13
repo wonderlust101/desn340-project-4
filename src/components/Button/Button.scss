@@ -3,13 +3,14 @@
 .button {
   display: block;
   width: max-content;
-  padding: 0.9rem 1.5rem;
+  padding: 0.9rem 3rem;
   cursor: pointer;
-  transition: 0.15s;
-  border: none;
+  font-size: 1.15rem;
   font-family: "Newake", sans-serif;
   letter-spacing: 0.0625rem;
   text-transform: uppercase;
+  border: solid 2px transparent;
+  transition: 0.15s;
 
   &--wide {
     padding: 0.9rem 2rem;
@@ -22,11 +23,23 @@
   &--blue {
     color: $clr-white;
     background-color: $clr-primary-color-blue;
+    
+    &:hover {
+      color: $clr-primary-color-blue;
+      background-color: $clr-white;
+      border: solid 2px $clr-primary-color-blue;
+    }
   }
 
   &--black {
     color: $clr-white;
     background-color: $clr-black;
+
+    &:hover {
+      color: $clr-black;
+      background-color: $clr-white;
+      border: solid 2px $clr-black;
+    }
   }
 
   &--white {

@@ -51,6 +51,10 @@
     padding: 1.5rem;
     color: $clr-white;
     background-color: $clr-black;
+    
+    @include breakpoint(medium) {
+      padding: 2rem 3rem;
+    }
   }
 }
 
@@ -62,6 +66,7 @@
   border-right: solid $clr-black 1px;
   
   @include breakpoint(medium) {
+    align-content: space-between;
     gap: 4rem;
     padding: 2rem 3rem;
   }
@@ -71,7 +76,7 @@
     gap: 1.15rem;
 
     @include breakpoint(medium) {
-      gap: 1.5rem;
+      gap: 2rem;
     }
   }
 
@@ -84,6 +89,12 @@
     font-size: 1.15rem;
     font-weight: 700;
     color: $clr-primary-color-blue;
+  }
+  
+  &__img {
+    height: 16rem;
+    width: 100%;
+    object-fit: cover;
   }
   
   &__text {

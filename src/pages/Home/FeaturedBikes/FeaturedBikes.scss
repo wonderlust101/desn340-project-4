@@ -51,6 +51,10 @@
     padding: 1.5rem;
     color: $clr-white;
     background-color: $clr-black;
+
+    @include breakpoint(medium) {
+      padding: 2rem 3rem;
+    }
   }
 }
 

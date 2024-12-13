@@ -79,6 +79,10 @@
   &__acknowledgement {
     font-size: 0.9rem;
     letter-spacing: 0.0375rem;
+    
+    @include breakpoint(medium) {
+      text-align: center;
+    }
   }
   
   &__socials {
