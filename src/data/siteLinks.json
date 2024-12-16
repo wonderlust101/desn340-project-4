@@ -49,7 +49,7 @@
   },
   {
     "header": "BIKE SHOP",
-    "href": "#/bike-shop",
+    "href": "bike-shop",
     "subLinks": [
       {
         "header": "REFURBISHED BIKES FOR SALE",
@@ -157,7 +157,7 @@
       },
       {
         "header": "HELP CENTER",
-        "href": "#/help-center"
+        "href": "help-center"
       },
       {
         "header": "CONTACT US",

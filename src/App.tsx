@@ -1,21 +1,9 @@
-import {HashRouter, Routes, Route} from "react-router-dom";
-import Home from "./pages/Home";
-import BikeShop from "./pages/BikeShop";
-import AlbertaTrafficSafetyAct from "./pages/AlbertaTrafficSafetyAct";
-import HelpCenter from "./pages/HelpCenter";
-
-const basename: string = import.meta.env.BASE_URL;
+import { Outlet } from "react-router-dom";
 
 export default function App() {
-
     return (
-        <HashRouter basename={basename}>
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/bike-shop" element={<BikeShop />} />
-                <Route path="/alberta-traffic-safety-act" element={<AlbertaTrafficSafetyAct />} />
-                <Route path="/help-center" element={<HelpCenter />} />
-            </Routes>
-        </HashRouter>
+        <>
+            <Outlet />
+        </>
     );
 }
