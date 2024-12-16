@@ -5,12 +5,13 @@ import Footer from "../../components/Footer";
 import SectionHero from "../../components/SectionHero";
 import TextContent from "../../components/TextContent";
 
-import sectionHeroImage from "/images/alberta-traffic-safety-act-hero.png";
+import sectionHeroImage from "/images/alberta-traffic-safety-act-hero.webp";
 
 import atsaContentJSON from "../../data/atsa.json";
 
 export default function AlbertaTrafficSafetyAct() {
     document.title = "Bike Edmonton | Alberta Traffic Safety Act";
+    
     const textContent: TextSection[] = atsaContentJSON;
 
     return (

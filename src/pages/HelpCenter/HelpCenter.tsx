@@ -7,7 +7,7 @@ import TopicSearch from "./TopicSearch";
 import HelpTopics from "./HelpTopics";
 import FAQ from "./FAQ";
 
-import sectionHero from "/images/help-center-hero.png";
+import sectionHero from "/images/help-center-hero.webp";
 
 export default function HelpCenter() {
     document.title = "Bike Edmonton | Help Centre";

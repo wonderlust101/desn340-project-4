@@ -1,6 +1,6 @@
 import "./AboutUs.scss";
 
-import aboutUsImage from "/images/about-us.png";
+import aboutUsImage from "/images/about-us.webp";
 
 export default function AboutUs() {
     return (

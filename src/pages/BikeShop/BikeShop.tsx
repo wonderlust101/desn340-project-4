@@ -1,23 +1,24 @@
+import {useState} from "react";
+
 import "./BikeShop.scss";
 
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import SectionHero from "../../components/SectionHero";
-
-import sectionHeroImage from "/images/used-bike-shop-hero.png";
-
-
-import bikesJson from "../../data/bikes.json";
 import ProductHeader from "./ProductHeader";
 import BikeShopProducts from "./BikeShopProducts";
 import MoreInfo from "./MoreInfo";
-import {useState} from "react";
 
-const bikes: Bike[] = bikesJson;
+import sectionHeroImage from "/images/used-bike-shop-hero.webp";
+
+import bikesJson from "../../data/bikes.json";
+
 
 export default function BikeShop() {
-    const [currentSize, setCurrentSize] = useState("All");
     document.title = "Bike Edmonton | Bike Shop";
+    
+    const [currentSize, setCurrentSize] = useState("All");
+    const bikes: Bike[] = bikesJson;
 
     return (
         <div>
@@ -30,7 +31,7 @@ export default function BikeShop() {
                     imagePosition="bottom"
                 />
 
-                <ProductHeader 
+                <ProductHeader
                     setCurrentSize={setCurrentSize}
                     currentSize={currentSize}
                 />

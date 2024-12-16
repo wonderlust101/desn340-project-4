@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 
 import "./Hero.scss";
 
-import heroImage from "/images/hero-image.png";
+import heroImage from "/images/hero-image.webp";
 
 export default function Hero() {
     const [imageHeight, setImageHeight] = useState("100vh");

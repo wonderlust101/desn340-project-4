@@ -1,10 +1,10 @@
 import "./Services.scss";
 
-import facilityBookingsImage from "/images/facility-bookings.png";
+import facilityBookingsImage from "/images/facility-bookings.webp";
 import lunchAndLearnImage from "/images/lunch-and-learn.webp";
-import rentAMechImage from "/images/rent-a-mechanic.png";
-import bikeGeneratorImage from "/images/bike-generator-rental.png";
-import bikeRackImage from "/images/bike-rack.png";
+import rentAMechImage from "/images/rent-a-mechanic.webp";
+import bikeGeneratorImage from "/images/bike-generator-rental.webp";
+import bikeRackImage from "/images/bike-rack.webp";
 
 export default function Services() {
     return (

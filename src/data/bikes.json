@@ -1,6 +1,6 @@
 [
   {
-    "imgURL": "images/bikes/salsomuklukblue.jpg",
+    "imgURL": "images/bikes/salsomuklukblue.webp",
     "name": "Salsa Mukluk",
     "type": "Mountain",
     "size": "Large",
@@ -9,7 +9,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/kuwaharabutteyellow.jpg",
+    "imgURL": "images/bikes/kuwaharabutteyellow.webp",
     "name": "Kuwahara Butte",
     "type": "Mountain",
     "size": "Large",
@@ -18,7 +18,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/jamisexplorer30blacksilver.jpg",
+    "imgURL": "images/bikes/jamisexplorer30blacksilver.webp",
     "name": "Jamis Explorer 3.0",
     "type": "Hybrid",
     "size": "Large",
@@ -27,7 +27,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/trek820blackblue.jpg",
+    "imgURL": "images/bikes/trek820blackblue.webp",
     "name": "Trek 820",
     "type": "Mountain",
     "size": "Large",
@@ -36,7 +36,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/trek820singletracksilverblack.jpg",
+    "imgURL": "images/bikes/trek820singletracksilverblack.webp",
     "name": "Trek 820 Single Track",
     "type": "All-Terrain",
     "size": "Large",
@@ -45,7 +45,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/trek6000blackwhite.jpg",
+    "imgURL": "images/bikes/trek6000blackwhite.webp",
     "name": "Trek 6000",
     "type": "All-Terrain",
     "size": "Large",
@@ -54,7 +54,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/treknavigatortaupe.jpg",
+    "imgURL": "images/bikes/treknavigatortaupe.webp",
     "name": "Trek Navigator",
     "type": "All-Terrain",
     "size": "Small",
@@ -63,7 +63,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/giantsedonamidnightblue.jpg",
+    "imgURL": "images/bikes/giantsedonamidnightblue.webp",
     "name": "Giant Sedona",
     "type": "Road",
     "size": "Small",
@@ -72,7 +72,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/momentumvidablack.jpg",
+    "imgURL": "images/bikes/momentumvidablack.webp",
     "name": "Momentum Vida",
     "type": "Road",
     "size": "Small",
@@ -81,7 +81,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/norcostormblack.jpg",
+    "imgURL": "images/bikes/norcostormblack.webp",
     "name": "Norco Storm",
     "type": "All-Terrain",
     "size": "Small",
@@ -90,7 +90,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/specializedrockhoppersilvergrey.jpg",
+    "imgURL": "images/bikes/specializedrockhoppersilvergrey.webp",
     "name": "Specialized Rockhopper",
     "type": "Road",
     "size": "Small",
@@ -99,7 +99,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/konacinderconegrey.jpg",
+    "imgURL": "images/bikes/konacinderconegrey.webp",
     "name": "Kona Cindercone",
     "type": "Mountain",
     "size": "Small",
@@ -108,7 +108,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/specializedrockhoppersilverblack.jpg",
+    "imgURL": "images/bikes/specializedrockhoppersilverblack.webp",
     "name": "Specialized Rockhopper Comp",
     "type": "Mountain",
     "size": "Small",
@@ -117,7 +117,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/brodieevolutionblack.jpg",
+    "imgURL": "images/bikes/brodieevolutionblack.webp",
     "name": "Brodie Evolution",
     "type": "Mountain",
     "size": "Small",
@@ -126,7 +126,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/trek4100silver.jpg",
+    "imgURL": "images/bikes/trek4100silver.webp",
     "name": "Trek 4100",
     "type": "Road",
     "size": "Small",
@@ -135,7 +135,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/marinoniestasiteal.jpg",
+    "imgURL": "images/bikes/marinoniestasiteal.webp",
     "name": "Marinoni Estasi",
     "type": "Road",
     "size": "Small",
@@ -144,7 +144,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/giantdefyredblack.jpg",
+    "imgURL": "images/bikes/giantdefyredblack.webp",
     "name": "Giant Defy 1",
     "type": "Road",
     "size": "Small",
@@ -153,7 +153,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/garyfishernirvanasilver.jpg",
+    "imgURL": "images/bikes/garyfishernirvanasilver.webp",
     "name": "Gary Fisher Nirvana",
     "type": "Hybrid",
     "size": "Medium",
@@ -162,7 +162,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/globecity61black.jpg",
+    "imgURL": "images/bikes/globecity61black.webp",
     "name": "Globe City 6.1",
     "type": "Hybrid",
     "size": "Medium",
@@ -171,7 +171,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/simcoecityteal.jpg",
+    "imgURL": "images/bikes/simcoecityteal.webp",
     "name": "Simcoe City Bike",
     "type": "Road",
     "size": "Medium",
@@ -180,7 +180,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/kiladyolive.jpg",
+    "imgURL": "images/bikes/kiladyolive.webp",
     "name": "Nirve Kilroy",
     "type": "Hybrid",
     "size": "Medium",
@@ -189,7 +189,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/gttimberlinewhitesplatter.jpg",
+    "imgURL": "images/bikes/gttimberlinewhitesplatter.webp",
     "name": "GT Timberline",
     "type": "Hybrid",
     "size": "Medium",
@@ -198,7 +198,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/trekantelope820blue.jpg",
+    "imgURL": "images/bikes/trekantelope820blue.webp",
     "name": "Trek Antelope 820",
     "type": "Hybrid",
     "size": "Medium",
@@ -207,7 +207,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/technovaredwhite.jpg",
+    "imgURL": "images/bikes/technovaredwhite.webp",
     "name": "Tech Nova",
     "type": "Mountain",
     "size": "Medium",
@@ -216,7 +216,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/gtaggressorhotred.jpg",
+    "imgURL": "images/bikes/gtaggressorhotred.webp",
     "name": "GT Aggressor Sport",
     "type": "Mountain",
     "size": "Medium",
@@ -225,7 +225,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/rockymountainfusionblack.jpg",
+    "imgURL": "images/bikes/rockymountainfusionblack.webp",
     "name": "Rocky Mountain Fusion",
     "type": "Mountain",
     "size": "Medium",
@@ -234,7 +234,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/trekxcaliber7black.jpg",
+    "imgURL": "images/bikes/trekxcaliber7black.webp",
     "name": "Trek Xcaliber 7",
     "type": "Hybrid",
     "size": "Medium",
@@ -243,7 +243,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/schwinntalikred.jpg",
+    "imgURL": "images/bikes/schwinntalikred.webp",
     "name": "Schwinn Talik",
     "type": "Road",
     "size": "Medium",
@@ -252,7 +252,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/kuwaharaclassicpewter.jpg",
+    "imgURL": "images/bikes/kuwaharaclassicpewter.webp",
     "name": "Kuwahara Classic",
     "type": "Road",
     "size": "Medium",
@@ -261,7 +261,7 @@
     "asIs": false
   },
   {
-    "imgURL": "images/bikes/trek20beigeasis.jpg",
+    "imgURL": "images/bikes/trek20beigeasis.webp",
     "name": "Trek 20",
     "type": "Road",
     "size": "Youth",
@@ -270,7 +270,7 @@
     "asIs": true
   },
   {
-    "imgURL": "images/bikes/raleighdivababyblueasis.jpg",
+    "imgURL": "images/bikes/raleighdivababyblueasis.webp",
     "name": "Raleigh Diva",
     "type": "Road",
     "size": "Youth",
@@ -279,7 +279,7 @@
     "asIs": true
   },
   {
-    "imgURL": "images/bikes/mtx125purple.jpg",
+    "imgURL": "images/bikes/mtx125purple.webp",
     "name": "MTX 125",
     "type": "Road",
     "size": "Youth",
@@ -288,7 +288,7 @@
     "asIs": true
   },
   {
-    "imgURL": "images/bikes/garyfisherprecaliberpinkasis.jpg",
+    "imgURL": "images/bikes/garyfisherprecaliberpinkasis.webp",
     "name": "Gary Fisher Pre-Caliber 24",
     "type": "Road",
     "size": "Youth",
@@ -297,7 +297,7 @@
     "asIs": true
   },
   {
-    "imgURL": "images/bikes/raleigh20greenasis.jpg",
+    "imgURL": "images/bikes/raleigh20greenasis.webp",
     "name": "Raleigh 20",
     "type": "Road",
     "size": "Small",
@@ -306,7 +306,7 @@
     "asIs": true
   },
   {
-    "imgURL": "images/bikes/apollomixtepinkasis.jpg",
+    "imgURL": "images/bikes/apollomixtepinkasis.webp",
     "name": "Apollo Mixte",
     "type": "Road",
     "size": "Small",
@@ -315,7 +315,7 @@
     "asIs": true
   },
   {
-    "imgURL": "images/bikes/ccmprimeburgundyasis.jpg",
+    "imgURL": "images/bikes/ccmprimeburgundyasis.webp",
     "name": "CCM Pulse",
     "type": "Road",
     "size": "Small",
@@ -324,7 +324,7 @@
     "asIs": true
   },
   {
-    "imgURL": "images/bikes/norcomountaineerpurplesilverasis.jpg",
+    "imgURL": "images/bikes/norcomountaineerpurplesilverasis.webp",
     "name": "Norco Mountaineer SL",
     "type": "Mountain",
     "size": "Small",
@@ -333,7 +333,7 @@
     "asIs": true
   },
   {
-    "imgURL": "images/bikes/raleighsportwhiteasis.jpg",
+    "imgURL": "images/bikes/raleighsportwhiteasis.webp",
     "name": "Raleigh Sport",
     "type": "Road",
     "size": "Medium",
@@ -342,7 +342,7 @@
     "asIs": true
   },
   {
-    "imgURL": "images/bikes/ccmaspenpurpleasis.jpg",
+    "imgURL": "images/bikes/ccmaspenpurpleasis.webp",
     "name": "CCM Aspen",
     "type": "Mountain",
     "size": "Medium",
@@ -351,7 +351,7 @@
     "asIs": true
   },
   {
-    "imgURL": "images/bikes/norcobushpilotblueasis.jpg",
+    "imgURL": "images/bikes/norcobushpilotblueasis.webp",
     "name": "Norco Bush Pilot",
     "type": "Hybrid",
     "size": "Medium",
@@ -360,7 +360,7 @@
     "asIs": true
   },
   {
-    "imgURL": "images/bikes/apollosensorswirlycrimsonasis.jpg",
+    "imgURL": "images/bikes/apollosensorswirlycrimsonasis.webp",
     "name": "Apollo Sensor",
     "type": "Road",
     "size": "Medium",
@@ -369,7 +369,7 @@
     "asIs": true
   },
   {
-    "imgURL": "images/bikes/novaratrionfoblackasis.jpg",
+    "imgURL": "images/bikes/novaratrionfoblackasis.webp",
     "name": "Novara Trionfo",
     "type": "Road",
     "size": "Medium",
