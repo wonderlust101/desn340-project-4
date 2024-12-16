@@ -12,5 +12,5 @@ export default defineConfig({
             }
         }
     },
-    base   : "/desn340-project-4/" 
+    base   : "#/desn340-project-4/" 
 });
