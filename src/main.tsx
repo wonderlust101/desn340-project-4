@@ -22,15 +22,15 @@ const router = createBrowserRouter([
                 element: <Home />,
             },
             {
-                path: `${basename}/bike-shop`,
+                path: `${basename}/bike-shop/`,
                 element: <BikeShop />,
             },
             {
-                path: `${basename}/alberta-traffic-safety-act`,
+                path: `${basename}/alberta-traffic-safety-act/`,
                 element: <AlbertaTrafficSafetyAct />,
             },
             {
-                path: `${basename}/help-center`,
+                path: `${basename}/help-center/`,
                 element: <HelpCenter />,
             },
         ],
