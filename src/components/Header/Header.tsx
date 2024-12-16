@@ -18,7 +18,7 @@ export default function Header() {
     return (
         <header className="header grid-bleed">
             <div className="header__content">
-                <a className='header__logo' href='/'>Bike Edmonton</a>
+                <a className='header__logo' href='/desn340-project-4/'>Bike Edmonton</a>
 
                 {width >= 1312 ? (
                     <FullSizeHeader links={links}/>
