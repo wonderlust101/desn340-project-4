@@ -1,59 +1,29 @@
 .featured-bikes {
-  grid-area: 4/1 / 4/4;
+  grid-area: 4/2 / 4/4;
   display: grid;
   gap: 1.5rem;
 
   @include breakpoint(medium) {
-    gap: 3rem;
+    gap: 2rem;
   }
   
-  &__header {
-    margin: 0 1rem;
-    
-    @include breakpoint(medium) {
-      margin: 0 4rem;
-    }
-
-    @include breakpoint(large) {
-      margin: 0 8rem;
-    }
-  }
-  
-  &__content {
-    overflow-x: auto;
-    width: 100%;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
-  }
-  
-  &__carousel-content {
-    display: grid;
-    width: max-content;
-    grid-auto-flow: column;
-    grid-template-columns: repeat(7, 24rem);
-    padding: 0 1rem;
-    
-    @include breakpoint(medium) {
-      padding: 0 4rem;
-      grid-template-columns: repeat(7, 30rem);
-    }
-
-    @include breakpoint(large) {
-      padding: 0 8rem;
-    }
-  }
-
   &__view-all {
     display: grid;
     align-content: space-between;
     padding: 1.5rem;
-    color: $clr-white;
     background-color: $clr-black;
 
     @include breakpoint(medium) {
       padding: 2rem 3rem;
+    }
+  }
+  
+  &__view-all-header {
+    font-size: 1.75rem;
+    color: $clr-white;
+
+    @include breakpoint(medium) {
+      font-size: 2.5rem;
     }
   }
 }

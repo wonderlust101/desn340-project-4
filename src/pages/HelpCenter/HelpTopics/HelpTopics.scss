@@ -1,0 +1,54 @@
+.help-topic {
+  grid-area: 3/2;
+  display: grid;
+  gap: 2rem;
+
+  &__topic-grid {
+    display: grid;
+    gap: 2rem;
+
+    @include breakpoint(medium) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__topic-box {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+    border: solid 1px $clr-black;
+    text-align: center;
+    transition: 0.15s ease;
+
+    @include breakpoint(medium) {
+      grid-template: 1fr 8rem / 1fr;
+      justify-items: center;
+    }
+
+    &:hover {
+      background-color: $clr-primary-color-blue;
+      color: white;
+    }
+
+    &:hover > div,
+    &:hover > h3 {
+      color: $clr-white;
+    }
+  }
+
+  &__topic-icon {
+    padding: 2rem;
+    color: $clr-primary-color-blue;
+
+    @include breakpoint(medium) {
+      padding: 3rem;
+    }
+    
+    & > svg {
+      @include breakpoint(medium) {
+        height: 10rem;
+        width: 10rem;
+      }
+    }
+  }
+}

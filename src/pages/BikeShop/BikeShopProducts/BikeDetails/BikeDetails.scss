@@ -1,0 +1,80 @@
+.bike-details {
+  display: grid;
+  grid-template-rows: max-content 1fr;
+  width: 100%;
+
+  &:nth-of-type(3n-1) {
+    @include breakpoint(medium) {
+      border-top: solid 1px $clr-black;
+      border-left: solid 1px $clr-black;
+      border-right: solid 1px $clr-black;
+    }
+  }
+
+  &__details {
+    display: grid;
+    gap: 1.75rem;
+    padding: 2rem 0;
+
+    @include breakpoint(medium) {
+      grid-template-rows: max-content max-content;
+      align-content: space-between;
+      gap: 3rem;
+      padding: 3rem;
+    }
+  }
+
+  &__content {
+    display: grid;
+    align-items: flex-start;
+    gap: 1rem;
+
+    @include breakpoint(medium) {
+      gap: 1.5rem;
+    }
+  }
+
+  &__title {
+    display: grid;
+    gap: 0.25rem;
+  }
+
+  &__bike-type {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $clr-primary-color-blue;
+
+    @include breakpoint(medium) {
+      font-size: 1.15rem;
+    }
+  }
+
+  &__price {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  &__text {
+    font-size: 1rem;
+    line-height: 150%;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+
+    @include breakpoint(medium) {
+      font-size: 1.15rem;
+    }
+  }
+
+  &__buttons {
+    display: grid;
+    align-items: flex-end;
+    gap: 0.75rem;
+
+    @include breakpoint(medium) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

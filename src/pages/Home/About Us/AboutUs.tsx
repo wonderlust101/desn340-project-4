@@ -24,7 +24,12 @@ export default function AboutUs() {
                         <p>thousands of people find a bike to ride and learn to fix their bike. Your financial support makes it possible for us to keep doing this work!</p>
                     </div>
                 </div>
-                <img className='about-us__img' src={aboutUsImage} alt=""/>
+                
+                <img 
+                    className='about-us__img' 
+                    src={aboutUsImage} 
+                    alt="Two women biking on a road within the city of Edmonton."
+                />
             </div>
 
         </section>

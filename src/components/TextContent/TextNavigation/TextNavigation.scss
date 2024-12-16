@@ -1,0 +1,49 @@
+.text-navigation {
+  display: none;
+
+  @include breakpoint(medium) {
+    display: block;
+    height: 100%;
+    position: relative;
+  }
+
+  &__container {
+    position: sticky;
+    top: 8rem;
+  }
+  
+  &__text {
+    font-family: 'Newake', sans-serif;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    letter-spacing: 0.075rem;
+    line-height: unset;
+    color: $clr-black;
+    
+    &:hover {
+      color: $clr-primary-color-blue;
+    }
+    
+    &--small {
+      font-size: 0.9rem;
+    }
+  }
+
+  &__section {
+    display: grid;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    border: 1px solid black;
+    border-bottom: none;
+
+    &:last-child {
+      border: 1px solid black;
+    }
+  }
+
+  &__sub-sections {
+    display: grid;
+    gap: 0.25rem;
+  }
+}

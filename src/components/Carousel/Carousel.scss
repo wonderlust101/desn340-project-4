@@ -1,0 +1,25 @@
+.carousel {
+  overflow-x: scroll;
+  width: 100%;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  
+  &__grid {
+    display: grid;
+    width: max-content;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(7, 30rem);
+    padding-right: 1rem;
+
+    @include breakpoint(medium) {
+      padding-right: 4rem;
+    }
+
+    @include breakpoint(large) {
+      padding-right: 8rem;
+    }
+  }
+}
+

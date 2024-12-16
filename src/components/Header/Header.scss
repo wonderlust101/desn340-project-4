@@ -16,17 +16,17 @@
   }
 
   &__logo {
+    margin-bottom: -0.75rem;
     color: $clr-primary-color-blue;
     font-family: 'Newake', sans-serif;
     font-size: 1.75rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
-    line-height: unset;
     z-index: 100;
     
-    @include breakpoint(large) {
-      font-size: 3rem;
+    @include breakpoint(medium) {
+      font-size: 2.5rem;
     }
   }
 }

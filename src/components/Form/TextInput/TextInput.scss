@@ -3,13 +3,18 @@
 .text-input {
   display: grid;
   gap: 0.5rem;
+  position: relative;
 
   &__field {
     width: 100%;
-    padding: 1rem 1.5rem;
-    border: 1px solid #19182B40;
-    border-radius: 0.5rem;
+    padding: 1rem 2.5rem;
+    border: 1px solid a.$clr-black;
     outline: none !important;
+    background-color: $clr-grey;
+    
+    @include breakpoint(medium) {
+      padding: 1.15rem 4.5rem;
+    }
 
     &::placeholder {
       opacity: 0.4;
@@ -35,6 +40,18 @@
     font-size: 0.75rem;
     font-weight: 700;
     line-height: 150%;
+  }
+  
+  &__icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translate(0, -45%);
+    
+    @include breakpoint(medium) {
+      left: 2rem;
+      height: 1.5rem;
+    }
   }
 
   &__error-icon {

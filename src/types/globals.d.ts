@@ -6,14 +6,17 @@ export {};declare global {
         imgURL: string;
         name: string;
         type: string;
+        size: string;
         price: number;
         content: string;
+        asIs: boolean;
     }
     
     type Blog = {
         title: string;
         date: string;
         imgURL: string;
+        imgAlt: string;
         content: string;
     }
     
@@ -28,20 +31,23 @@ export {};declare global {
         href: string;
     }
 
+    type Button = {
+        title: string;
+        href: string;
+    }
+
     type TextContent = string | {
         beforeText?: string;
-        content: (string | string[] | TextContent)[];
+        definition: (string | string[] | TextContent)[];
         header?: string;
     };
 
-    interface Regulation {
+    type TextSection = {
         header: string;
         subHeader?: string;
         text: TextContent[];
+        button: Button;
     }
-
-    type RegulationList = Regulation[];
-
 }
 
 export {};

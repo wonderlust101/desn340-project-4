@@ -1,0 +1,53 @@
+.blog-post {
+  display: grid;
+  gap: 2rem;
+  padding: 1.5rem;
+  border-top: solid $clr-black 1px;
+  border-right: solid $clr-black 1px;
+
+  @include breakpoint(medium) {
+    align-content: space-between;
+    gap: 4rem;
+    padding: 2rem 3rem;
+  }
+
+  &__content {
+    display: grid;
+    gap: 1.15rem;
+
+    @include breakpoint(medium) {
+      gap: 2rem;
+    }
+  }
+
+  &__title {
+    display: grid;
+    gap: 0.25rem;
+  }
+
+  &__date {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: $clr-primary-color-blue;
+  }
+
+  &__img {
+    height: 16rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__text {
+    font-size: 1rem;
+    line-height: 150%;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+
+    @include breakpoint(medium) {
+      font-size: 1.15rem;
+    }
+  }
+}

@@ -1,12 +1,7 @@
 import './FullSizeHeader.scss'
 
-type link = {
-    location: string;
-    href: string;
-}
-
 type headerMenuProps = {
-    links: link[];
+    links: Links[];
 }
 
 export default function FullSizeHeader({links}: headerMenuProps) {
@@ -15,9 +10,9 @@ export default function FullSizeHeader({links}: headerMenuProps) {
         <nav className="fullSizeHeader__nav">
             <ul className="fullSizeHeader__links">
                 {links.map((link) => (
-                    <li key={link.location}>
-                        <a  href={link.href} aria-label={"Go to " + link.location + " Page"}>
-                            {link.location}
+                    <li key={link.header}>
+                        <a  href={link.href} aria-label={"Go to " + link.header + " Page"}>
+                            {link.header}
                         </a>
                     </li>
                 ))}

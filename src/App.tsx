@@ -2,7 +2,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./pages/Home";
 import BikeShop from "./pages/BikeShop";
 import AlbertaTrafficSafetyAct from "./pages/AlbertaTrafficSafetyAct";
-import Help from "./pages/Help";
+import HelpCenter from "./pages/HelpCenter";
 
 const basename: string = import.meta.env.BASE_URL;
 
@@ -14,7 +14,7 @@ export default function App() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/bike-shop" element={<BikeShop />} />
                 <Route path="/alberta-traffic-safety-act" element={<AlbertaTrafficSafetyAct />} />
-                <Route path="/help" element={<Help />} />
+                <Route path="/help-center" element={<HelpCenter />} />
             </Routes>
         </BrowserRouter>
     );

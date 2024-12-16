@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./TextInput.scss";
 
 type TextInputProps = {
@@ -9,6 +10,7 @@ type TextInputProps = {
     label?: string;
     placeholder?: string;
     icon?: string;
+    errorIcon?: string;
     errorText?: string;
     isRequired: boolean;
     value: string | number;
@@ -16,18 +18,31 @@ type TextInputProps = {
 }
 
 export default function TextInput({
-                                      id, type, className, status, label, placeholder, icon, errorText, isRequired,
-                                      value, onChange
+                                      id,
+                                      type,
+                                      className,
+                                      status,
+                                      label,
+                                      placeholder,
+                                      icon,
+                                      errorIcon,
+                                      errorText,
+                                      isRequired,
+                                      value,
+                                      onChange
                                   }: TextInputProps) {
     return (
         <div className="text-input">
-            <div className='text-input__labels'>
-                {label ?
-                    <label className="text-input__label" htmlFor={id}>{label}</label> :
-                    <label className="sr-only" htmlFor={id}>{label}</label>}
-                
-                {status === "error" ? <p className="text-input__status">{errorText}</p> : null}
-            </div>
+            {label ? (
+                <div className="text-input__labels">
+                    <label className="text-input__label" htmlFor={id}>{label}</label>
+                </div>
+            ) : (
+                <label className="sr-only" htmlFor={id}>{label}</label>
+            )}
+
+            {status === "error" ? <p className="text-input__status">{errorText}</p> : null}
+            {icon ? <img className="text-input__icon" src={icon} alt="" role="presentation"/> : null}
 
             <input
                 className={"text-input__field " + (status === "" ? "" : "text-input__field--" + status) + ` ${className}`}
@@ -37,9 +52,10 @@ export default function TextInput({
                 aria-required={isRequired}
                 required={isRequired}
                 value={value}
-                onChange={onChange}/>
+                onChange={onChange}
+            />
 
-            {icon ? <img className="text-input__error-icon" src={icon} alt="" role="presentation"/> : null}
+            {errorIcon ? <img className="text-input__error-icon" src={errorIcon} alt="" role="presentation"/> : null}
         </div>
     );
 }

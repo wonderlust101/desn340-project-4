@@ -1,0 +1,38 @@
+.product-header {
+  &__top-section-buttons {
+    grid-area: 2/1 / 2/4;
+    display: grid;
+    row-gap: 1.5rem;
+    width: 100%;
+    
+    @include breakpoint(medium) {
+      margin-bottom: -2rem;
+    }
+  }
+
+  &__carousel-content {
+    grid-area: 1/2 / 1/5;
+    overflow-x: scroll;
+    width: 100%;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__bike-type-buttons {
+    display: grid;
+    justify-content: flex-start;
+    grid-auto-flow: column;
+    gap: 1rem;
+  }
+
+  &__more-info-button {
+    grid-area: 2/2;
+
+    & svg {
+      height: 1.15rem;
+      width: 1.15rem;
+    }
+  }
+}

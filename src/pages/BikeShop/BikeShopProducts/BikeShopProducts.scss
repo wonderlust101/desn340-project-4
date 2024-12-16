@@ -1,0 +1,88 @@
+.bike-shop-products {
+  &__products {
+    grid-area: 3/2 / 3/3;
+    display: grid;
+  }
+
+  &__product-header {
+    display: grid;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    padding: 1.5rem 0;
+    border-top: solid 1px $clr-black;
+    border-bottom: solid 1px $clr-black;
+  }
+  
+  &__filter {
+    display: flex;
+    gap: 0.5rem;
+
+    &:hover {
+      text-decoration: underline solid $clr-black;
+      cursor: pointer;
+    }
+  }
+
+  &__product-header-text {
+    font-family: 'Newake', sans-serif;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    
+    &--blue {
+      color: $clr-primary-color-blue;
+    }
+  }
+
+  &__products-grid {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem 0;
+
+    @include breakpoint(medium) {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: unset;
+      padding: 0 0 2rem;
+    }
+  }
+
+  &__pagination {
+    display: grid;
+    align-items: center;
+    grid-template-columns: max-content 1fr max-content;
+    
+    @include breakpoint(medium) {
+      justify-content: center;
+      grid-template-columns: repeat(3, max-content);
+      gap: 2rem;
+    }
+  }
+
+  &__pagination-numbers {
+    display: grid;
+    gap: 0.75rem;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    & .active {
+      cursor: unset;
+      color: $clr-white;
+      background-color: $clr-black;
+    }
+  }
+
+  &__pagination-number {
+    border: solid 1px $clr-black;
+    padding: 0.625rem 1.15rem;
+    cursor: pointer;
+
+    &:hover:not(.active) {
+      color: $clr-white;
+      background-color: $clr-primary-color-blue;
+    }
+  }
+
+  &__pagination-arrow {
+    cursor: pointer;
+  }
+}

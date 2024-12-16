@@ -5,7 +5,7 @@ import InstagramIcon from "../Icons/InstagramIcon";
 import TwitterIcon from "../Icons/TwitterIcon";
 import YoutubeIcon from "../Icons/YoutubeIcon";
 
-import linksJSON from "../../data/footer_links.json";
+import linksJSON from "../../data/siteLinks.json";
 
 const links: Links[] = linksJSON;
 
@@ -14,7 +14,7 @@ export default function Footer() {
     return (
         <footer className="footer grid-bleed">
             <section className="footer__container">
-                <h2 className="footer__header">Bike Edmonton</h2>
+                <p className="footer__logo">Bike Edmonton</p>
 
                 <div className="footer__content">
                     <div className="footer__main-section">
@@ -55,9 +55,8 @@ export default function Footer() {
 
                                     <ul className="footer__sub-links">
                                         {link.subLinks.map((subLink) => (
-                                            <li key={subLink.header}>
+                                            <li className="footer__sub-link" key={subLink.header}>
                                                 <a
-                                                    className="footer__sub-link"
                                                     href={subLink.href}
                                                     aria-label={`Go to ${subLink.header} Page`}
                                                 >

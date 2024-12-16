@@ -1,47 +1,67 @@
 .footer {
   background-color: $clr-black;
-  color: white;
   padding: 3rem 0;
-  
+
+  &__logo {
+    margin-bottom: -0.75rem;
+    color: $clr-white;
+    font-family: 'Newake', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    line-height: unset;
+    z-index: 100;
+
+    @include breakpoint(medium) {
+      font-size: 2.5rem;
+    }
+  }
+
   &__container {
     grid-area: 1/2;
     display: grid;
     gap: 4rem;
   }
-  
+
   &__content {
     display: grid;
     gap: 3rem;
   }
-  
+
   &__main-section {
     display: grid;
     gap: 3rem;
-    
+
     @include breakpoint(medium) {
-      grid-template-columns: max-content max(60rem);
+      grid-template-columns: max-content max-content;
       justify-content: space-between;
     }
   }
-  
+
   &__contact {
     display: grid;
     gap: 0.75rem;
     align-content: flex-start;
-    
+
     & p {
       font-size: 1rem;
+      color: $clr-white;
     }
   }
-  
+
   &__links {
     display: grid;
     gap: 1rem;
-    
+
     @include breakpoint(medium) {
       row-gap: 4rem;
-      column-gap: 8rem;
-      grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+      column-gap: 2rem;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include breakpoint(large) {
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 
@@ -50,41 +70,52 @@
     gap: 1.5rem;
     align-content: flex-start;
   }
-  
+
   &__link-section-header {
     font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: 0.05rem;
-    
+    color: $clr-white;
+
     @include breakpoint(medium) {
       font-size: 1rem;
     }
+
+    &:hover {
+      text-decoration: underline 1px $clr-white;
+    }
   }
-  
+
   &__sub-links {
     display: none;
-    
+
     @include breakpoint(medium) {
       display: grid;
       gap: 0.75rem;
     }
-    
-    & > * {
-      font-size: 0.9rem;
-      letter-spacing: 0.04375rem;
-      line-height: 1.5;
+  }
+
+  &__sub-link {
+    font-size: 0.9rem;
+    letter-spacing: 0.04375rem;
+    line-height: 1.5;
+    color: $clr-white;
+
+    &:hover {
+      text-decoration: underline 1px $clr-white;
     }
   }
-  
+
   &__acknowledgement {
     font-size: 0.9rem;
     letter-spacing: 0.0375rem;
-    
+    color: $clr-white;
+
     @include breakpoint(medium) {
       text-align: center;
     }
   }
-  
+
   &__socials {
     justify-self: center;
     display: flex;
@@ -96,12 +127,13 @@
       align-items: center;
       justify-content: center;
       height: 1.5rem;
-      width: 1.5rem; 
+      width: 1.5rem;
     }
 
     & > a svg {
-      max-height: 100%; 
+      max-height: 100%;
       max-width: 100%;
+      color: $clr-white;
     }
   }
 }

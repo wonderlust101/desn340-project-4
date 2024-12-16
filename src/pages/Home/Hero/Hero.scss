@@ -3,6 +3,10 @@
   display: grid;
   gap: 1rem;
   justify-items: center;
+  
+  @include breakpoint(medium) {
+    gap: 2rem;
+  }
 
   &__image {
     grid-area: 1/1 / 1/4;

@@ -1,0 +1,19 @@
+.text-content {
+  grid-area: 2/2;
+
+  @include breakpoint(medium) {
+    display: grid;
+    grid-template-columns: 26rem 1fr;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  &__main-content {
+    display: grid;
+    gap: 4rem;
+    
+    @include breakpoint(medium) {
+      gap: 6rem;
+    }
+  }
+}

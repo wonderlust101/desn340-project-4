@@ -1,39 +1,37 @@
 import "./FeaturedBikes.scss";
-import BikeDetails from "../../../components/BikeDetails";
 import Button from "../../../components/Button";
+import FeaturedBike from "./FeaturedBike";
 import bikesJson from "../../../data/bikes.json";
-
-const bikes: Bike[] = bikesJson;
+import Carousel from "../../../components/Carousel";
 
 export default function FeaturedBikes() {
+    const bikes: Bike[] = bikesJson;
+    const featuredBikesNum: number = 6;
 
     return (
         <section className="featured-bikes">
             <h2 className="featured-bikes__header">Featured Bikes</h2>
 
-            <div className="featured-bikes__content">
-                <div className="featured-bikes__carousel">
-                    <div className="featured-bikes__carousel-content">
-                        {bikes.map((bikes, index) => (
-                            <BikeDetails
-                                key={index}
-                                imgURL={bikes.imgURL}
-                                name={bikes.name}
-                                type={bikes.type}
-                                price={bikes.price}
-                                content={bikes.content}
-                                showQuickView={false}
-                            />
+            <Carousel
+                itemCount={featuredBikesNum + 1}
+                itemWidth={30}
+            >
+                {bikes.slice(0, featuredBikesNum).map((bike, index) => (
+                    <FeaturedBike
+                        key={index}
+                        imgURL={bike.imgURL}
+                        name={bike.name}
+                        type={bike.type}
+                        price={bike.price}
+                        content={bike.content}
+                    />
+                ))}
 
-                        ))}
-                        
-                        <section className="latest-blog__view-all">
-                            <h2>View All</h2>
-                            <Button variant="button--white">View Used Bike Shop</Button>
-                        </section>
-                    </div>
-                </div>
-            </div>
+                <section className="featured-bikes__view-all">
+                    <h3 className="featured-bikes__view-all-header">View All</h3>
+                    <Button variant="button--white" location="bike-shop">View Used Bike Shop</Button>
+                </section>
+            </Carousel>
         </section>
     );
 }

@@ -9,7 +9,7 @@
     },
     "outDir": "./dist",
     "moduleResolution": "node",
-    "target": "es6",
+    "target": "es2016",
     "module": "esnext",
     "strict": true,
     "esModuleInterop": true,

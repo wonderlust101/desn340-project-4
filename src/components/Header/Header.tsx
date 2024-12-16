@@ -3,38 +3,9 @@ import {useState} from "react";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import FullSizeHeader from "./FullSizeHeader";
 import MobileHeader from "./MobileHeader";
+import linksJSON from "../../data/siteLinks.json";
 
-type link = {
-    location: string;
-    href: string;
-}
-
-const links: link[] = [
-    {
-        'location': 'Service',
-        'href': "#"
-    },
-    {
-        'location': 'Workshop',
-        'href': "#"
-    },
-    {
-        'location': 'Bike Shop',
-        'href': "#"
-    },
-    {
-        'location': 'Resources',
-        'href': "#"
-    },
-    {
-        'location': 'About',
-        'href': "#"
-    },
-    {
-        'location': 'Blog',
-        'href': "#"
-    }
-]
+const links: Links[] = linksJSON;
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +18,7 @@ export default function Header() {
     return (
         <header className="header grid-bleed">
             <div className="header__content">
-                <p className='header__logo'>Bike Edmonton</p>
+                <a className='header__logo' href='/'>Bike Edmonton</a>
 
                 {width >= 1312 ? (
                     <FullSizeHeader links={links}/>

@@ -1,0 +1,30 @@
+.text-section {
+    display: grid;
+    gap: 2rem;
+  
+  @include breakpoint(medium) {
+    gap: 2.5rem;
+  }
+  
+  &__header {
+    display: grid;
+    gap: 0.25rem;
+    
+    @include breakpoint(medium) {
+      gap: 0.5rem;
+    }
+  }
+  
+  &__sub-header {
+    color: $clr-primary-color-blue;
+  }
+
+  &__body {
+    display: grid;
+    gap: 1.5rem;
+    
+    @include breakpoint(medium) {
+      gap: 2rem;
+    }
+  }
+}

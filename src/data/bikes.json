@@ -1,44 +1,380 @@
 [
   {
-    "imgURL": "public/images/bikes/norco-multi-track.png",
-    "name": "Norco Multi Track",
-    "type": "Hybrid",
-    "price": 390,
-    "content": "This hybrid will make a good 4 season commuter for someone looking for a bike that can be economically maintained. Features thumb shifters for maximum ease of shifting with mittens, a riser stem for a natural feeling riding position, and a body geometry saddle that will keep you astride for hours. One of the best examples of stripped down utility on two wheels you'll find."
-  },
-  {
-    "imgURL": "public/images/bikes/salsa-mukluk.jpg",
+    "imgURL": "images/bikes/salsomuklukblue.jpg",
     "name": "Salsa Mukluk",
     "type": "Mountain",
+    "size": "Large",
     "price": 785,
-    "content": "Are you looking for the ultimate two-wheeled snow machine in your near future? Here’s your chance to own a fat bike! Whether you are hitting the singletrack in a winter wonderland rolling unbothered over brown sugar, or just want to casually pass every slipping sliding stuck car on the half dozen or so snow days Edmonton averages each winter, you’ll have a blast doing it on 4 inch wide studded tires. Features swayback handlebars for an upright riding position that’s easy on the wrists and a 3×9 drive train with gearing low enough to climb walls."
+    "content": "Are you looking for the ultimate two-wheeled snow machine in your near future? Here’s your chance to own a fat bike! Whether you are hitting the singletrack in a winter wonderland rolling unbothered over brown sugar, or just want to casually pass every slipping sliding stuck car on the half dozen or so snow days Edmonton averages each winter, you’ll have a blast doing it on 4 inch wide studded tires. Features swayback handlebars for an upright riding position that’s easy on the wrists and a 3×9 drive train with gearing low enough to climb walls.",
+    "asIs": false
   },
   {
-    "imgURL": "public/images/bikes/kuwahara-butte.jpg",
+    "imgURL": "images/bikes/kuwaharabutteyellow.jpg",
     "name": "Kuwahara Butte",
     "type": "Mountain",
+    "size": "Large",
     "price": 335,
-    "content": "Steel framed rigid mountain bikes from ‘80s are the Energizer Bunnies of the cycling the world - they just keep going and going and going… The bombproof Suntour friction shifters harken back to another age, when companies built their market on quality, and plastic parts were a no-no. Unfortunately for Suntour, people rarely had to replace their parts, and they were eventually outcompeted by companies who promoted the next flavour of the week, planned obsolescence, and yearly upgrades to the new shiny thing. Complete with full fenders, this will make an excellent 4 season commuter and all-round, all-purpose, all-terrain bicycle."
+    "content": "Steel framed rigid mountain bikes from ‘80s are the Energizer Bunnies of the cycling the world - they just keep going and going and going… The bombproof Suntour friction shifters harken back to another age, when companies built their market on quality, and plastic parts were a no-no. Unfortunately for Suntour, people rarely had to replace their parts, and they were eventually outcompeted by companies who promoted the next flavour of the week, planned obsolescence, and yearly upgrades to the new shiny thing. Complete with full fenders, this will make an excellent 4 season commuter and all-round, all-purpose, all-terrain bicycle.",
+    "asIs": false
   },
   {
-    "imgURL": "public/images/bikes/jamis-explorer-3.0.jpg",
+    "imgURL": "images/bikes/jamisexplorer30blacksilver.jpg",
     "name": "Jamis Explorer 3.0",
     "type": "Hybrid",
+    "size": "Large",
     "price": 395,
-    "content": "More upright than your average hardtail, this bike is a great choice for casual cruising through the city and the countryside, a short to medium distance commute, or recreational riding with friends and family. Fully tuned and in decent condition, it features lots of gear range to take on any river valley hill, and hybrid tires to make street riding the smoothest, fastest breeze."
+    "content": "More upright than your average hardtail, this bike is a great choice for casual cruising through the city and the countryside, a short to medium distance commute, or recreational riding with friends and family. Fully tuned and in decent condition, it features lots of gear range to take on any river valley hill, and hybrid tires to make street riding the smoothest, fastest breeze.",
+    "asIs": false
   },
   {
-    "imgURL": "public/images/bikes/trek-820.jpg",
+    "imgURL": "images/bikes/trek820blackblue.jpg",
     "name": "Trek 820",
     "type": "Mountain",
+    "size": "Large",
     "price": 495,
-    "content": "For anyone aged millennial or younger, the default style of bike has always been mountain bike, no matter where it was being ridden. This hardtail is a good example of a mountain bike that wasn't designed for hard riding on mountain egresses, but will still make for great all terrain recreational romps. It has enough gear range, traction , and suspension travel to handle exploring most anything in the river valley, without being so overbuilt to be overkill for riding on the road. Features modern geometry with wide handlebars and a slightly upright riding position."
+    "content": "For anyone aged millennial or younger, the default style of bike has always been mountain bike, no matter where it was being ridden. This hardtail is a good example of a mountain bike that wasn't designed for hard riding on mountain egresses, but will still make for great all terrain recreational romps. It has enough gear range, traction , and suspension travel to handle exploring most anything in the river valley, without being so overbuilt to be overkill for riding on the road. Features modern geometry with wide handlebars and a slightly upright riding position.",
+    "asIs": false
   },
   {
-    "imgURL": "public/images/bikes/trek-820-single-track.jpg",
+    "imgURL": "images/bikes/trek820singletracksilverblack.jpg",
     "name": "Trek 820 Single Track",
     "type": "All-Terrain",
+    "size": "Large",
     "price": 345,
-    "content": "On the trails and on the streets, this hardtail is a fun, all terrain ride ready to take on any side quest or impromptu exploration in the city, the river valley, and beyond. A great choice for all purpose recreation, or for getting from A to B for folks who prefer a mountain bike to a city bike."
+    "content": "On the trails and on the streets, this hardtail is a fun, all terrain ride ready to take on any side quest or impromptu exploration in the city, the river valley, and beyond. A great choice for all purpose recreation, or for getting from A to B for folks who prefer a mountain bike to a city bike.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/trek6000blackwhite.jpg",
+    "name": "Trek 6000",
+    "type": "All-Terrain",
+    "size": "Large",
+    "price": 565,
+    "content": "Edmonton’s river valley is a refuge, a reprieve from the car infested city, and a place to recharge your mental health with an injection of nature. And there’s no better way to explore it than on the saddle of a hardtail. Astride this bike, you’ll never want for gear range on any river valley hill, nor will you want for braking power with the formidable stopping strength of the hydraulic disc brakes. Meanwhile, the supple suspension fork will smooth your path over roots and rocks, with a lockout function to ensure the quickest ride on the roads to the trailhead.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/treknavigatortaupe.jpg",
+    "name": "Trek Navigator",
+    "type": "All-Terrain",
+    "size": "Small",
+    "price": 345,
+    "content": "This is a bike for anyone who values perfect posture and wants to sit up completely straight while riding. With a rack and splash guards included, it’s a perfect choice for general city riding and short to medium distance commuting. The suspension fork and seat post will smooth out the bumps in the road, while the wide road tires strike the perfect balance between traction, comfort, and efficiency on pavement.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/giantsedonamidnightblue.jpg",
+    "name": "Giant Sedona",
+    "type": "Road",
+    "size": "Small",
+    "price": 365,
+    "content": "This is a bike for anyone who values perfect posture and wants to sit up completely straight while riding. With a rack and splash guards included, it’s a perfect choice for general city riding and short to medium distance commuting. The suspension fork and seat post will smooth out the bumps in the road, while the wide road tires strike the perfect balance between traction, comfort, and efficiency on pavement.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/momentumvidablack.jpg",
+    "name": "Momentum Vida",
+    "type": "Road",
+    "size": "Small",
+    "price": 395,
+    "content": "Sit up straight and tall and mount and dismount with grace and ease on this modern city bike with an ultra-low step-through frame. With 650B balloon tires, rolling through the urban environment will feel like riding on a cloud, while the 1×8 gearing keeps the shifting system user-friendly without sacrificing too much hill climbing power. Add a heavy duty rack ready for grocery hauling, minimalist chain guard, and powerful mechanical disc brakes, and there isn’t much more that you could ask for in a practical city bike.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/norcostormblack.jpg",
+    "name": "Norco Storm",
+    "type": "All-Terrain",
+    "size": "Small",
+    "price": 340,
+    "content": "Outfitted with a set of studded tires, this hardtail will make a great choice for the winter commute. Features a slightly upright riding position, enough gear range to conquer any snirt, and a little bit of front suspension to smooth out the bumps when the paths have been packed down by feet but not plowed.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/specializedrockhoppersilvergrey.jpg",
+    "name": "Specialized Rockhopper",
+    "type": "Road",
+    "size": "Small",
+    "price": 575,
+    "content": "Wanna do some super graphic ultra modern riding for fun and transportation? This hardtail is ready to play on the trails and burn through the streets. Features hydraulic disc brakes, more gear range than you'll ever need in Edmonton, and wide handlebars and modern geometry for maximum comfort and performance.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/konacinderconegrey.jpg",
+    "name": "Kona Cindercone",
+    "type": "Mountain",
+    "size": "Small",
+    "price": 445,
+    "content": "If you are looking for the ideal bike to ride Edmonton’s extensive mountain bike trail system, a hardtail will give you the most bang for your buck. Ideal for folks who don’t want to worry too much about their bike, just about where they’re going to explore next. Features mechanical disc brakes, XT derailleur, and a damn nice fork.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/specializedrockhoppersilverblack.jpg",
+    "name": "Specialized Rockhopper Comp",
+    "type": "Mountain",
+    "size": "Small",
+    "price": 325,
+    "content": "The thing about sporty little hardtails from the days before the twin towers crashed is that they are still nimble enough for river valley escape rides for when you need a little break to recenter and regroup in the fight against creeping authoritarianism. The wide gear range will remind you that the proper application of the right tools and leverage can get you up the steepest mountain, while the modest front suspension is a subtle reminder to be gentle with yourself in the face of adversity.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/brodieevolutionblack.jpg",
+    "name": "Brodie Evolution",
+    "type": "Mountain",
+    "size": "Small",
+    "price": 465,
+    "content": "Well ain’t this the spiffiest first generation hardtail we’ve seen in a hot minute! A great choice for riders who like a sporty, forward riding position for maximum power, this bike will roam the streets, trails, and everything in between. Features a smattering of old school XT components and a take no prisoners attitude.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/trek4100silver.jpg",
+    "name": "Trek 4100",
+    "type": "Road",
+    "size": "Small",
+    "price": 345,
+    "content": "A little bit sporty, a little bit casual. A little bit country, a little bit city. A little bit fun and games, a little bit A to B utility. This hardtail is a versatile ride for recreational rolling as well as school runs, neighbourhood conveyance, and personal transportation to worksites near and not so near. Features lots of gear range for flattening the hills and silky smooth shifting.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/marinoniestasiteal.jpg",
+    "name": "Marinoni Estasi",
+    "type": "Road",
+    "size": "Small",
+    "price": 850,
+    "content": "In the hands of a master craftsman such as Giuseppe Marinoni, a bicycle is more than just a bicycle. Hand built in Canada with Columbus Neuron tubing, when this ultralight bike isn’t flying down the road as if propelled by an otherworldly force, the aficionado can easily get lost in the exquisite detailing of a dying art form. Features old school Dura Ace 8 speed integrated shifters and derailleurs, Shimano 600 brakes and crankset, and an enchanting opalescent paint job. Opportunities to jump on such a perfect fusion of form and function are few and far between, so don’t forsake this opportunity to own some of the finest steel on 2 wheels.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/giantdefyredblack.jpg",
+    "name": "Giant Defy 1",
+    "type": "Road",
+    "size": "Small",
+    "price": 845,
+    "content": "Defy gravity, defy the wind, defy the friction of the pavement, and defy your preconceived limitations for how fast you can go on just your own power on this ultra light road bike. Features a modern cockpit with Shimano 105 integrated shifters & derailleurs, and a triple crankset that will you give you enough gear range to roll swiftly up any mountain highway.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/garyfishernirvanasilver.jpg",
+    "name": "Gary Fisher Nirvana",
+    "type": "Hybrid",
+    "size": "Medium",
+    "price": 495,
+    "content": "Looking for a comfortable bike for mostly road riding without the aggressive riding position of a road bike and with tires that can handle a little gravel? Give this hybrid a try! Whether you are riding for transportation or recreation, this style of bike is a great choice for folks who are getting back into riding for the first time in many years, or are just looking for an easy riding generalist bike.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/globecity61black.jpg",
+    "name": "Globe City 6.1",
+    "type": "Hybrid",
+    "size": "Medium",
+    "price": 525,
+    "content": "Get more from your commutes and urban adventures with the smartly appointed hybrid. When your travels take you over hill and dale, you'll be glad to have lots of gear range for easier climbs and and zippy 700c tires. Plus, this Globe comes stacked with all the commuting essentials too, including generator-driven front and rear lights, fenders, and rear rack to make it an awesome all season automobile alternative.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/simcoecityteal.jpg",
+    "name": "Simcoe City Bike",
+    "type": "Road",
+    "size": "Medium",
+    "price": 525,
+    "content": "Perfect city bike alert! For rolling through the streets in comfort, style, and ease, this bike has it all! The 3 speed internally geared hub will give you the perfect amount of gear range in the flatter neighbourhoods for hauling groceries, while reducing maintenance time. Includes a rear rack, full fenders, chain guard, and upright handlebars to ensure you look as good when you arrive as you did when you left the house. Combining vintage styling with modern components, this bike isn’t just a show-stopper, it’s a traffic stopper.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/kiladyolive.jpg",
+    "name": "Nirve Kilroy",
+    "type": "Hybrid",
+    "size": "Medium",
+    "price": 525,
+    "content": "Cool, casual, comfortable, chill, easy riding. This beach cruiser is great choice for slow rides around the neighbourhood, when you’re not going far but you’re riding there in style. Features a laid back riding position and a single speed drivetrain with an easy gear ratio to keep it simple, with a coaster (back-pedal) brake, plus a front brake for added safety.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/gttimberlinewhitesplatter.jpg",
+    "name": "GT Timberline",
+    "type": "Hybrid",
+    "size": "Medium",
+    "price": 355,
+    "content": "We’re always excited when GT’s distinctive triple triangle frame makes an appearance on our page. Whether you are looking for a bike for transportation or play, this rigid mountain bike is a great choice for an all purpose ride that can handle the streets, the woods, and everywhere in between. Features a slightly upright stem for a more natural feeling riding position.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/trekantelope820blue.jpg",
+    "name": "Trek Antelope 820",
+    "type": "Hybrid",
+    "size": "Medium",
+    "price": 355,
+    "content": "Versatility? Yes please! If you are looking for one bike to do it all, you can't do better than a rigid mountain bike. Riding to work or school at a decent pace - check. Fun rides with friends & family wherever they desire - check. Exploring a little further off the beaten path in river valley - check. Four season capability - check. All terrain adventure - check.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/technovaredwhite.jpg",
+    "name": "Tech Nova",
+    "type": "Mountain",
+    "size": "Medium",
+    "price": 315,
+    "content": "Vintage rigid mountain bikes have become the 21st century workhorse cycle. For 4 season commuting, or all terrain riding for fun and transportation, they can handle just about anything without added weight or complicated mechanics & maintenance. This one, made for the little known but well regarded Calgary based brand, features bomb-proof thumb shifters and a matching upright stem for a more natural riding position.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/gtaggressorhotred.jpg",
+    "name": "GT Aggressor Sport",
+    "type": "Mountain",
+    "size": "Medium",
+    "price": 455,
+    "content": "With modern mountain bike geometry on a vintage bike budget, this hardtail is perfect for recreational cyclists who are eager to escape the pavement. This hardtail boasts upgraded wheels and hydraulic disc brakes, as well as a 3×7 drivetrain that will give you the most gear range for your dollar when it comes time to replace worn out parts a couple thousand kilometers down the road.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/rockymountainfusionblack.jpg",
+    "name": "Rocky Mountain Fusion",
+    "type": "Mountain",
+    "size": "Medium",
+    "price": 545,
+    "content": "Big wheels will keep on turning! On a Rocky Mountain trails are burning Rollin’! Rollin’ in the river valley! With hydraulic disc brakes, lockout fork, and gears for days, this sporty 29’er is the perfect vehicle for the ride to the trailhead, smoothing over the rough spots on the river valley single track, and beyond.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/trekxcaliber7black.jpg",
+    "name": "Trek Xcaliber 7",
+    "type": "Hybrid",
+    "size": "Medium",
+    "price": 545,
+    "content": "Are you ready to shred? Here is the perfect two wheeled machine for exploring all of Edmonton’s river valley trails, from paved MUP’s to black diamond single track without spending a fortune. Featuring hydraulic disc brakes, front suspension with the option to lock it out when your rolling on smooth ground, and modern geometry with wide handlebars, your biggest challenge will be finding places to ride where you need all of that gear range.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/schwinntalikred.jpg",
+    "name": "Schwinn Talik",
+    "type": "Road",
+    "size": "Medium",
+    "price": 255,
+    "content": "Budget hardtail alert! A good choice for casual riding, or if you need a beater bike for winter or for when you don’t want to leave your fancy bike locked unattended. Features mechanical disc brakes and a go-getter attitude.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/kuwaharaclassicpewter.jpg",
+    "name": "Kuwahara Classic",
+    "type": "Road",
+    "size": "Medium",
+    "price": 435,
+    "content": "Featuring triple butted Ishiwata tubing of the finest Japanese steel, this classic road bike will make a speedy and stylish fair weather commuter when it's time for business, as well as the perfect machine for hitting the highway riding the wind for miles on the weekend. Features a triple crank in the front for extra gear range and sleekly formed Suntour components for a touch of quality and attention to detail that has been lost in the modern bike market.",
+    "asIs": false
+  },
+  {
+    "imgURL": "images/bikes/trek20beigeasis.jpg",
+    "name": "Trek 20",
+    "type": "Road",
+    "size": "Youth",
+    "price": 75,
+    "content": "A great choice for a youngster’s first pedal bike! Ultra-light single speed with a coaster brake and rear hand brake. Quick tuned and ready to ride.",
+    "asIs": true
+  },
+  {
+    "imgURL": "images/bikes/raleighdivababyblueasis.jpg",
+    "name": "Raleigh Diva",
+    "type": "Road",
+    "size": "Youth",
+    "price": 50,
+    "content": "Quick tuned kids bike. Ready to roll.",
+    "asIs": true
+  },
+  {
+    "imgURL": "images/bikes/mtx125purple.jpg",
+    "name": "MTX 125",
+    "type": "Road",
+    "size": "Youth",
+    "price": 60,
+    "content": "Quick tuned kids bike. Ready to roll.",
+    "asIs": true
+  },
+  {
+    "imgURL": "images/bikes/garyfisherprecaliberpinkasis.jpg",
+    "name": "Gary Fisher Pre-Caliber 24",
+    "type": "Road",
+    "size": "Youth",
+    "price": 125,
+    "content": "Quick tuned and ready to ride, but has not had annual preventative maintenance done.",
+    "asIs": true
+  },
+  {
+    "imgURL": "images/bikes/raleigh20greenasis.jpg",
+    "name": "Raleigh 20",
+    "type": "Road",
+    "size": "Small",
+    "price": 195,
+    "content": "An adult sized bike with small wheels is a great choice for adults who are learning to ride as the low center of gravity and ease of adjustment can help build confidence while learning balance. It’s also a good choice if you need a spare bike of flexible sizing to lend out to friends, family, or travelers. Includes a 3 speed Sturmey Archer hub.",
+    "asIs": true
+  },
+  {
+    "imgURL": "images/bikes/apollomixtepinkasis.jpg",
+    "name": "Apollo Mixte",
+    "type": "Road",
+    "size": "Small",
+    "price": 125,
+    "content": "Size adult small, 27” x 1-1/4” tires on steel wheels. New bar tape. In rideable condition.",
+    "asIs": true
+  },
+  {
+    "imgURL": "images/bikes/ccmprimeburgundyasis.jpg",
+    "name": "CCM Pulse",
+    "type": "Road",
+    "size": "Small",
+    "price": 95,
+    "content": "Size adult small with 26” x 1.95” off-road tires on alloy rims. Quick tuned and ready to ride.",
+    "asIs": true
+  },
+  {
+    "imgURL": "images/bikes/norcomountaineerpurplesilverasis.jpg",
+    "name": "Norco Mountaineer SL",
+    "type": "Mountain",
+    "size": "Small",
+    "price": 165,
+    "content": "Size adult small-medium with 26” x 1.95” off-road tires on alloy rims. Quick tuned and ready to ride.",
+    "asIs": true
+  },
+  {
+    "imgURL": "images/bikes/raleighsportwhiteasis.jpg",
+    "name": "Raleigh Sport",
+    "type": "Road",
+    "size": "Medium",
+    "price": 195,
+    "content": "Adult size medium, with 700 × 35c tires on alloy rims. Quick-tuned and in overall nice shape.",
+    "asIs": true
+  },
+  {
+    "imgURL": "images/bikes/ccmaspenpurpleasis.jpg",
+    "name": "CCM Aspen",
+    "type": "Mountain",
+    "size": "Medium",
+    "price": 250,
+    "content": "If you're really tempted to buy a shiny new modern looking mountain bike from Canadian Tire, save yourself some money and hassle and buy this one instead. In barely used condition, it's been adjusted and tuned by a professional mechanic (unlike the new bikes at Canadian Tire and other big box stores), and is in rideable condition.",
+    "asIs": true
+  },
+  {
+    "imgURL": "images/bikes/norcobushpilotblueasis.jpg",
+    "name": "Norco Bush Pilot",
+    "type": "Hybrid",
+    "size": "Medium",
+    "price": 225,
+    "content": "Awesome winter beater alert! Quick-tuned & ready to roll.",
+    "asIs": true
+  },
+  {
+    "imgURL": "images/bikes/apollosensorswirlycrimsonasis.jpg",
+    "name": "Apollo Sensor",
+    "type": "Road",
+    "size": "Medium",
+    "price": 185,
+    "content": "Size 19”, adult medium-large, with 26” x 1.9” commuter tires and nicely upgraded parts and accessories. Ready to ride, but will be due for a bottom bracket overhaul soon.",
+    "asIs": true
+  },
+  {
+    "imgURL": "images/bikes/novaratrionfoblackasis.jpg",
+    "name": "Novara Trionfo",
+    "type": "Road",
+    "size": "Medium",
+    "price": 225,
+    "content": "A well ridden butted Japanese steel frame with good quality 1980s components. Quick-tuned and ready to roll into its next life.",
+    "asIs": true
   }
 ]

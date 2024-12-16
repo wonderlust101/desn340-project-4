@@ -1,48 +1,10 @@
 .latest-blog {
-  grid-area: 5/1 / 5/4;
+  grid-area: 5/2 / 5/4;
   display: grid;
   gap: 1.5rem;
 
   @include breakpoint(medium) {
-    gap: 3rem;
-  }
-  
-  &__header {
-    margin: 0 1rem;
-
-    @include breakpoint(medium) {
-      margin: 0 4rem;
-    }
-
-    @include breakpoint(large) {
-      margin: 0 8rem;
-    }
-  }
-  
-  &__content {
-    overflow-x: auto;
-    width: 100%;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
-  }
-
-  &__carousel-content {
-    display: grid;
-    width: max-content;
-    grid-auto-flow: column;
-    grid-template-columns: repeat(7, 24rem);
-    padding: 0 1rem;
-
-    @include breakpoint(medium) {
-      padding: 0 4rem;
-      grid-template-columns: repeat(7, 30rem);
-    }
-
-    @include breakpoint(large) {
-      padding: 0 8rem;
-    }
+    gap: 2rem;
   }
   
   &__view-all {
@@ -56,54 +18,14 @@
       padding: 2rem 3rem;
     }
   }
-}
 
-.blog-post {
-  display: grid;
-  gap: 2rem;
-  padding: 1.5rem;
-  border-top: solid $clr-black 1px;
-  border-right: solid $clr-black 1px;
-  
-  @include breakpoint(medium) {
-    align-content: space-between;
-    gap: 4rem;
-    padding: 2rem 3rem;
-  }
-
-  &__content {
-    display: grid;
-    gap: 1.15rem;
+  &__view-all-header {
+    font-size: 1.75rem;
+    color: $clr-white;
 
     @include breakpoint(medium) {
-      gap: 2rem;
+      font-size: 2.5rem;
     }
   }
-
-  &__title {
-    display: grid;
-    gap: 0.25rem;
-  }
-  
-  &__date {
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: $clr-primary-color-blue;
-  }
-  
-  &__img {
-    height: 16rem;
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  &__text {
-    font-size: 1.15rem;
-    line-height: 150%;
-    display: -webkit-box;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-  }
 }
+

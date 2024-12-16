@@ -6,18 +6,23 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Newake', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.0875rem;
+  color: a.$clr-black;
 }
 
-h3, h4, h5, h6 {
-  letter-spacing: 0.0625rem;
-}
-
-p, a, button, ul, ol {
+p, a, button, ul, ol, input {
   font-family: 'Outfit', sans-serif;
+  color: a.$clr-black;
 }
 
-// Individual Sizes
+// Individual Font Styles
+
+h1 {
+  font-size: 2.5rem;
+  
+  @include a.breakpoint(medium) {
+    font-size: 6rem;
+  }
+}
 
 h2 {
   font-size: 1.75rem;
@@ -35,12 +40,31 @@ h3 {
   }
 }
 
-p {
-  font-size: 1.25rem;
+h4 {
+  font-size: 1rem;
+  letter-spacing: 0.025rem;
+
+  @include a.breakpoint(medium) {
+    font-size: 1.25rem;
+    letter-spacing: 0.075rem;
+  }
+}
+
+p, li, input {
+  font-size: 1rem;
   line-height: 1.5;
+  
+  @include a.breakpoint(medium) {
+    font-size: 1.25rem;
+  }
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.text-highlight {
+  color: a.$clr-primary-color-blue;
+  font-weight: 700;
 }

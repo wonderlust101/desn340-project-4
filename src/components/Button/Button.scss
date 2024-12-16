@@ -1,21 +1,29 @@
 @use '../../assets/styles/abstract' as a;
 
 .button {
-  display: block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
   width: max-content;
   padding: 0.9rem 3rem;
   cursor: pointer;
-  font-size: 1.15rem;
-  font-family: "Newake", sans-serif;
-  letter-spacing: 0.0625rem;
+  line-height: 1.1;
+  font-size: 1rem;
+  font-family: 'Newake', sans-serif;
+  letter-spacing: 0.06563rem;
   text-transform: uppercase;
-  border: solid 2px transparent;
   transition: 0.15s;
+
+  @include a.breakpoint(medium) {
+    font-size: 1.05rem;
+    letter-spacing: 0.09375rem;
+  }
 
   &--wide {
     padding: 0.9rem 2rem;
   }
-  
+
   &--full-width {
     width: 100%;
   }
@@ -23,27 +31,77 @@
   &--blue {
     color: $clr-white;
     background-color: $clr-primary-color-blue;
-    
+
+    & svg {
+      color: $clr-white;
+    }
+
     &:hover {
       color: $clr-primary-color-blue;
       background-color: $clr-white;
       border: solid 2px $clr-primary-color-blue;
+    }
+
+    &:hover > svg {
+      color: $clr-primary-color-blue;
     }
   }
 
   &--black {
     color: $clr-white;
     background-color: $clr-black;
+    border: solid 2px $clr-black;
+
+    & svg {
+      color: white;
+    }
 
     &:hover {
       color: $clr-black;
       background-color: $clr-white;
       border: solid 2px $clr-black;
     }
+
+    &:hover > svg {
+      color: $clr-black;
+    }
   }
 
   &--white {
     color: $clr-black;
     background-color: $clr-white;
+    border: solid 2px $clr-black;
+
+    & svg {
+      color: $clr-black;
+    }
+
+    &:hover {
+      color: $clr-white;
+      background-color: $clr-black;
+      border: solid 2px $clr-white;
+    }
+
+    &:hover > svg {
+      color: $clr-white;
+    }
+
+    &.active {
+      color: $clr-white;
+      background-color: $clr-black;
+      border: solid 2px $clr-black;
+    }
+
+    &.inactive {
+      color: $clr-black;
+      background-color: $clr-white;
+      border: solid 2px $clr-black;
+
+      &:hover {
+        color: $clr-white;
+        background-color: $clr-black;
+        border: solid 2px $clr-black;
+      }
+    }
   }
 }

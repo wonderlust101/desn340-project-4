@@ -9,46 +9,59 @@ import bikeRackImage from "/images/bike-rack.png";
 export default function Services() {
     return (
         <section className="services">
-            <h2 className='services__header'>Our Services</h2>
+            <h2 className="services__header">Our Services</h2>
 
-            <div className='services__grid'>
-                <div>
-                    <img src={facilityBookingsImage} alt=""/>
+            <div className="services__grid">
+                <section>
+                    <img 
+                        src={facilityBookingsImage} 
+                        alt="The interior of the facility in downtown Edmonton."
+                    />
 
                     <h3>Facility Bookings</h3>
-                </div>
+                </section>
 
-                <hr className='services__divider'/>
+                <hr className="services__divider"/>
 
-                <div>
-                    <img src={lunchAndLearnImage} alt=""/>
+                <section>
+                    <img src={lunchAndLearnImage}
+                         alt="A group of people participating in a presentation of bike repairs."
+                    />
 
                     <h3>Lunch and Learn Presentation</h3>
-                </div>
+                </section>
 
-                <hr className='services__divider'/>
+                <hr className="services__divider"/>
 
-                <div>
-                    <img src={rentAMechImage} alt=""/>
+                <section>
+                    <img 
+                        src={rentAMechImage} 
+                        alt="A mechanic working on a bike outside of the shop."/>
 
                     <h3>Rent A Mechanic</h3>
-                </div>
+                </section>
 
-                <hr className='services__divider'/>
+                <hr className="services__divider"/>
 
-                <div>
-                    <img src={bikeGeneratorImage} alt=""/>
+                <section>
+                    <img 
+                        src={bikeGeneratorImage} 
+                        alt="A woman squatting beside some bikes."
+                    />
 
                     <h3>Bike Generator Rental</h3>
-                </div>
-                
-                <hr className='services__divider'/>
+                </section>
 
-                <div>
-                    <img src={bikeRackImage} alt=""/>
+                <hr className="services__divider"/>
+
+                <section>
+                    <img 
+                        src={bikeRackImage} 
+                        alt="A bike rack found in a park in Edmonton."
+                    />
 
                     <h3>Bike Rack Sale and Rental</h3>
-                </div>
+                </section>
             </div>
         </section>
     );

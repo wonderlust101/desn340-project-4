@@ -20,7 +20,7 @@ export default function Hero() {
                 setImageHeight(`min(40vh, calc(100vh - ${headerHeight + textHeight}px))`);
             }
             else {
-                setImageHeight(`calc(100vh - ${headerHeight + textHeight + 16}px)`);
+                setImageHeight(`calc(100vh - ${headerHeight + textHeight + 48}px)`);
             }
         };
 

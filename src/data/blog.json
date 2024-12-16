@@ -2,37 +2,43 @@
   {
     "title": "Get Free Studded Tires to Ride Through the Winter",
     "date": "November 29, 2024",
-    "imgURL": "public/images/blog/free-studded-tires.png",
+    "imgURL": "images/blog/free-studded-tires.png",
+    "imgAlt": "A display of bikes in the winter with studded tires.", 
     "content": "To support Edmonton’s WinterCity Strategy, Bike Edmonton and the City of Edmonton have teamed up to make winter cycling safer and more fun by giving out studded winter tires!You’ll choose three challenges from eight suggested challenges that will help you ride your bike safely and comfortably through the winter. Some examples of challenges include watching winter cycling videos, recording your rides, taking a picture of you and your bike on a winter excursion, and riding to Coffee Outside."
   },
   {
     "title": "Bike Edmonton Cycling Caps!",
     "date": "October 26, 2024",
-    "imgURL": "public/images/blog/cycling-caps.jpg",
+    "imgURL": "images/blog/cycling-caps.jpg",
+    "imgAlt": "A mannequin wearing a Bike Edmonton hat.",
     "content": "Available in a full range of sizes, caps will come in navy blue 100% cotton twill with retro racing stripes, and feature the Bike Edmonton logo, with the slogan \"Empowering Every Cyclist\" printed on the side. All profits from this fundraiser will support Bike Edmonton operations, including our community bike workshop and outreach programs."
   },
   {
     "title": "Bike Edmonton's Annual General Meeting",
     "date": "October 22, 2024",
-    "imgURL": "public/images/blog/annual-general-meeting.png",
+    "imgURL": "images/blog/annual-general-meeting.png",
+    "imgAlt": "A notification about the annual general meeting for Bike Edmonton.",
     "content": "It has been a year of transition for Bike Edmonton, and we are so grateful for the support of all our members. Last winter you responded to our appeal, and raised more than $30,000 to help keep Bike Edmonton alive and well.\n\nNow, we invite all members to our Annual General Meeting on Sunday, November 3rd, 1pm at the Strathcona Community League's upper hall (10139 87 Ave), where we will discuss the year that was, share our 2024-2025 budget for your consideration, and elect new Board members."
   },
   {
     "title": "Our South Shop is Closing",
     "date": "June 13, 2024",
-    "imgURL": "public/images/blog/south-shop-closing.jpg",
+    "imgURL": "images/blog/south-shop-closing.jpg",
+    "imgAlt": "A bicycle with a loaded cargo trailer carrying bins, tools, and bags parked outside a bike shop.",
     "content": "Our South Community Bike Workshop will be closing permanently at the end of the day on Sunday June 16th. The shop was consistently bustling, but the building changed hands last year and its new owners were unwilling to sign a new lease without a substantial rent increase. We hoped to relocate nearby, but a search found no suitable affordable spaces. This came during a challenging financial time for Bike Edmonton, and after much discussion and analysis, our Board of Directors concluded that we must consolidate operations out of our downtown shop."
   },
   {
     "title": "Big Spring Bike Sale!",
     "date": "April 12, 2024",
-    "imgURL": "public/images/blog/spring-bike-sale.png",
+    "imgURL": "images/blog/spring-bike-sale.png",
+    "imgAlt": "A notification about the spring bike sale on April 20th.",
     "content": "It’s that time of year again! Spring! We’re very excited to be holding our Big Spring Bike Sale on Saturday, April 20th starting at 11 AM at the downtown shop. Don’t miss it If you’re looking for a bike! See bikeedmonton.ca/springsale for more details."
   },
   {
     "title": "Pedalist Picnic Bike Market @ Bike Edmonton",
     "date": "March 31, 2024",
-    "imgURL": "public/images/blog/pedalist-picnic-bike.png",
+    "imgURL": "images/blog/pedalist-picnic-bike.png",
+    "imgAlt": "A notification about the pedalist picnic bike market on April 27th.",
     "content": "The Pedalist Picnic is an awesome local bike/parts/accessories sale organized by Troubadour Cycles (with a shoutout to @mitchiedagger).  On Saturday April 27th (noon to 5ish) come check out some great deals at Bike Edmonton’s downtown shop.  A big thanks to the organizers for supporting Bike Edmonton.\n\nSee the Picnic’s Facebook event for more details, vendor updates and more!"
   }
 ]
