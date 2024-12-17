@@ -51,7 +51,7 @@
       width: 1.15rem;
     }
 
-    @include breakpoint(large) {
+    @include breakpoint(x-large) {
       grid-area: 1/2;
       justify-self: flex-end;
       width: max-content;

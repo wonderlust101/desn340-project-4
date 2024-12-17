@@ -4,6 +4,10 @@
     gap: 2rem;
     
     @include breakpoint(medium) {
+      gap: 2.5rem;
+    }
+
+    @include breakpoint(x-large) {
       gap: 4rem;
     }
   }

@@ -13,8 +13,8 @@ type BikeShopProductsProps = {
 export default function BikeShopProducts({bikeList, currentSize}: BikeShopProductsProps) {
     const [filteredBikes, setFilteredBikes] = useState<Bike[]>([]);
     const [currentPage, setCurrentPage] = useState(1);
+    const [itemsPerPage, setItemsPerPage] = useState(9);
     
-    const itemsPerPage: number = 9;
     const startIndex: number = (currentPage - 1) * itemsPerPage;
     const currentBikes: Bike[] = filteredBikes.slice(startIndex, startIndex + itemsPerPage);
     const totalPages: number = Math.ceil(filteredBikes.length / itemsPerPage);
@@ -34,6 +34,22 @@ export default function BikeShopProducts({bikeList, currentSize}: BikeShopProduc
             shopSectionRef.current.scrollIntoView({behavior: "smooth"});
         }
     };
+
+    useEffect(() => {
+        const updateItemsPerPage = () => {
+            if (window.innerWidth >= 1280) {
+                setItemsPerPage(9);
+            } else if (window.innerWidth >= 864) {
+                setItemsPerPage(8);
+            } else {
+                setItemsPerPage(6);
+            }
+        };
+
+        updateItemsPerPage();
+        window.addEventListener("resize", updateItemsPerPage);
+        return () => window.removeEventListener("resize", updateItemsPerPage);
+    }, []);
     
     const goToNextPage = () => {
         setCurrentPage((prev) => {

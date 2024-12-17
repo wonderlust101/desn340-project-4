@@ -2,11 +2,32 @@
   display: grid;
   grid-template-rows: max-content 1fr;
   width: 100%;
+  border-bottom: solid 1px $clr-black;
 
-  &:nth-of-type(3n-1) {
+  @include breakpoint(medium) {
+    &:nth-last-child(-n + 2) {
+      border-bottom: unset;
+    }
+  }
+  
+  @include breakpoint(large) {
+    &:nth-last-child(-n + 3) {
+      border-bottom: unset;
+    }
+  }
+  
+  &:nth-of-type(2n-1) {
     @include breakpoint(medium) {
-      border-top: solid 1px $clr-black;
-      border-left: solid 1px $clr-black;
+      border-right: solid 1px $clr-black;
+    }
+
+    @include breakpoint(large) {
+      border-right: unset;
+    }
+  }
+
+  &:not(:nth-of-type(3n)) {
+    @include breakpoint(large) {
       border-right: solid 1px $clr-black;
     }
   }
@@ -78,10 +99,10 @@
     align-items: flex-end;
     gap: 0.75rem;
 
-    @include breakpoint(medium) {
+    @include breakpoint(x-large) {
       grid-template-columns: 1fr 1fr;
     }
-    
+
     & > * {
       padding: 0.9rem 0;
     }
