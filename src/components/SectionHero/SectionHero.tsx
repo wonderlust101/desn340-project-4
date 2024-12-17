@@ -12,8 +12,13 @@ export default function SectionHero({header, imageUrl, imagePosition, imageAlt}:
     return (
         <section className="section-hero grid-bleed">
             <h1 className="section-hero__header">{header}</h1>
-            <img className="section-hero__image" style={{objectPosition: imagePosition}} src={imageUrl} alt={imageAlt}
-                 role="presentation"/>
+            <img
+                className="section-hero__image"
+                style={{objectPosition: imagePosition}}
+                src={imageUrl}
+                alt={imageAlt}
+                role="presentation"
+            />
         </section>
     );
 }

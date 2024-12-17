@@ -10,7 +10,6 @@
     display: grid;
     width: max-content;
     grid-auto-flow: column;
-    grid-template-columns: repeat(7, 30rem);
     padding-right: 1rem;
 
     @include breakpoint(medium) {

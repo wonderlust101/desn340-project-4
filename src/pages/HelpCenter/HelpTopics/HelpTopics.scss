@@ -1,14 +1,22 @@
 .help-topic {
   grid-area: 3/2;
   display: grid;
-  gap: 2rem;
+  gap: 1.25rem;
 
+  @include breakpoint(medium) {
+    gap: 2rem;
+  }
+  
   &__topic-grid {
     display: grid;
     gap: 2rem;
 
     @include breakpoint(medium) {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template: 1fr 1fr / 1fr 1fr;
+    }
+
+    @include breakpoint(large) {
+      grid-template: 1fr / repeat(4, 1fr);
     }
   }
 
@@ -27,12 +35,20 @@
 
     &:hover {
       background-color: $clr-primary-color-blue;
-      color: white;
     }
 
     &:hover > div,
     &:hover > h3 {
       color: $clr-white;
+    }
+  }
+
+  &__topic-box-header {
+    font-size: 1.25rem;
+    
+    @include breakpoint(medium) {
+      font-size: 1.75rem;
+      padding: 0 2rem;
     }
   }
 

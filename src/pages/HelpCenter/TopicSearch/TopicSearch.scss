@@ -1,5 +1,11 @@
 .topic-search {
   grid-area: 2/2;
   display: grid;
-  gap: 2rem;
+  gap: 1.25rem;
+  margin-top: -2rem;
+
+  @include breakpoint(medium) {
+    margin-top: unset;
+    gap: 2rem;
+  }
 }

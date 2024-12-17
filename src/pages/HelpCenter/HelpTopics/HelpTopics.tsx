@@ -42,7 +42,7 @@ export default function HelpTopics() {
                     <a className="help-topic__topic-box" key={index}>
                         <div className="help-topic__topic-icon">{topic.icon}</div>
 
-                        <h3>{topic.title}</h3>
+                        <h3 className='help-topic__topic-box-header'>{topic.title}</h3>
                     </a>
                 ))}
             </div>

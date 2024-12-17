@@ -1,7 +1,4 @@
 declare global {
-}
-
-export {};declare global {
     type Bike = {
         imgURL: string;
         name: string;

@@ -1,7 +1,7 @@
-import './TextSection.scss'
-
+import "./TextSection.scss";
 import Button from "../../Button";
 import TextContainer from "./TextContainer";
+import TextList from "./TextList";
 import {convertToTag} from "../../../utils/TextFormatter";
 
 type textSectionType = {
@@ -17,14 +17,33 @@ export default function TextSection({header, subHeader, sectionNumber, text, but
     return (
         <section className="text-section">
             <div className="text-section__header">
-                <h2 id={convertToTag(header)}>{sectionNumber}. {header}</h2>
-                {subHeader && <h3 className="text-section__sub-header">{subHeader}</h3>}
+                <h2 id={convertToTag(header)}>
+                    {sectionNumber}. {header}
+                </h2>
+
+                {subHeader &&
+                    <h3 className="text-section__sub-header">
+                        {subHeader}
+                    </h3>
+                }
             </div>
 
             <div className="text-section__body">
                 {text.map((item, index) => {
                     if (typeof item === "string") {
-                        return <p key={index}>{item}</p>;
+                        return (
+                            <p key={index}>
+                                {item}
+                            </p>
+                        );
+                    }
+                    else if (Array.isArray(item)) {
+                        return (
+                            <TextList
+                                key={index}
+                                listItems={item}
+                            />
+                        );
                     }
                     else {
                         return (
@@ -38,7 +57,14 @@ export default function TextSection({header, subHeader, sectionNumber, text, but
                     }
                 })}
 
-                {button && <Button variant="button--black" location={button.href}>{button.title}</Button>}
+                {button &&
+                    <Button
+                        variant="button--black"
+                        location={button.href}
+                    >
+                        {button.title}
+                    </Button>
+                }
             </div>
         </section>
     );

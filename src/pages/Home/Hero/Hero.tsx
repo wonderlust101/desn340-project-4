@@ -9,7 +9,7 @@ export default function Hero() {
 
     useEffect(() => {
         const adjustImageHeight = () => {
-            const isMobile = window.innerWidth <= 768;
+            const isMobile = window.innerWidth <= 864;
             const header = document.querySelector("header") as HTMLElement | null;
             const textContainer = document.querySelector(".hero__text-container") as HTMLElement | null;
 

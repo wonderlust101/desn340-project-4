@@ -18,7 +18,7 @@ const questions: question[] = [
     {
         question: "What Is DIY/DIT Bike Repair?",
         answer  :
-            "DIY (do-it-yourself) repair provides you with the tools, space and parts to do your own repairs and projects. It is great way to learn about bikes, develop your mechanical skills and save money, so long as you are motivated to do your own work. We only give very limited, hands-off guidance for DIY repairs." +
+            "DIY (do-it-yourself) repair provides you with the tools, space and parts to do your own repairs and projects. It is great way to learn about bikes, develop your mechanical skills and save money, so long as you are motivated to do your own work. We only give very limited, hands-off guidance for DIY repairs.\n" +
             "\n" +
             "DIT (do-it-together) repairs are for anyone wanting to learn about bike mechanics and work on their own bike, but need assistance. We can give you a little bit of help, or a lot of help, depending on what you need, but you are expected to be directly involved." +
             "\n"
@@ -88,9 +88,17 @@ export default function FAQ() {
 
             <div className="faq__accordian">
                 {questions.map((item, index) => (
-                    <div className="faq__question" key={index}>
-                        <div className="faq__question-header" onClick={() => handleToggle(index)}>
-                            <h3 className="faq__question-title">{index + 1}. {item.question}</h3>
+                    <div
+                        key={index}
+                        className="faq__question"
+                    >
+                        <div
+                            className="faq__question-header"
+                            onClick={() => handleToggle(index)}
+                        >
+                            <h3 className="faq__question-title">
+                                {index + 1}. {item.question}
+                            </h3>
 
                             <img
                                 className={`faq__dropdown-icon ${activeIndex === index ? "rotate" : ""}`}
@@ -103,10 +111,8 @@ export default function FAQ() {
                         {activeIndex === index && (
                             <p
                                 className="faq__answer"
-                                dangerouslySetInnerHTML={{
-                                    __html: item.answer.replace(/\n/g, "<br />"),
-                                }}
-                            ></p>
+                                dangerouslySetInnerHTML={{__html: item.answer.replace(/\n/g, "<br />"),}}
+                            />
                         )}
                     </div>
                 ))}

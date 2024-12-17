@@ -1,6 +1,9 @@
 .home {
   display: grid;
-  row-gap: 4rem;
-  overflow: hidden;
+  row-gap: 2rem;
   margin-bottom: 3rem;
+
+  @include breakpoint(medium) {
+    row-gap: 4rem;
+  }
 }

@@ -1,10 +1,9 @@
 .bike-shop {
   display: grid;
   row-gap: 2rem;
-  overflow: hidden;
   margin-bottom: 3rem;
 
   @include breakpoint(medium) {
-    gap: 4rem;
+    row-gap: 4rem;
   }
 }

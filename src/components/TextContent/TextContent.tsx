@@ -1,5 +1,4 @@
 import "./TextContent.scss";
-
 import TextNavigation from "./TextNavigation";
 import TextSection from "./TextSection";
 
@@ -11,7 +10,9 @@ export default function TextContent({textContent}: textContentProps) {
 
     return (
         <section className="text-content">
-            <TextNavigation textContent={textContent}/>
+            <TextNavigation 
+                textContent={textContent}
+            />
 
             <div className="text-content__main-content">
                 {textContent.map((section, index) => (

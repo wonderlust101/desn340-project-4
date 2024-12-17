@@ -20,7 +20,7 @@
     letter-spacing: 0.09375rem;
   }
 
-  &--wide {
+  &--narrow {
     padding: 0.9rem 2rem;
   }
 
@@ -31,6 +31,7 @@
   &--blue {
     color: $clr-white;
     background-color: $clr-primary-color-blue;
+    border: solid 2px $clr-primary-color-blue;
 
     & svg {
       color: $clr-white;

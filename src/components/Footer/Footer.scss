@@ -11,7 +11,6 @@
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     line-height: unset;
-    z-index: 100;
 
     @include breakpoint(medium) {
       font-size: 2.5rem;
@@ -27,6 +26,10 @@
   &__content {
     display: grid;
     gap: 3rem;
+    
+    @include breakpoint(medium) {
+      gap: 5rem;
+    }
   }
 
   &__main-section {
@@ -43,11 +46,11 @@
     display: grid;
     gap: 0.75rem;
     align-content: flex-start;
+  }
 
-    & p {
-      font-size: 1rem;
-      color: $clr-white;
-    }
+  &__contact-text {
+    font-size: 1rem;
+    color: $clr-white;
   }
 
   &__links {
@@ -62,6 +65,7 @@
 
     @include breakpoint(large) {
       grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 4rem;
     }
   }
 

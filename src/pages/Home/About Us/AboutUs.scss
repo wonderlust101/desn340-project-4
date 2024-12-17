@@ -13,7 +13,7 @@
     display: grid;
     grid-template: max-content max-content / 1fr;
 
-    @include breakpoint(medium) {
+    @include breakpoint(large) {
       grid-template: 1fr / 1.5fr 1fr;
     }
   }
@@ -24,7 +24,7 @@
     width: 100%;
     object-fit: cover;
 
-    @include breakpoint(medium) {
+    @include breakpoint(large) {
       grid-area: 1/2;
       height: 55rem;
     }
@@ -35,7 +35,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 
-    @include breakpoint(medium) {
+    @include breakpoint(large) {
       grid-area: 1/1;
     }
 
@@ -51,7 +51,7 @@
     }
 
     & > *:nth-child(1) {
-      @include breakpoint(medium) {
+      @include breakpoint(large) {
         border-top: solid black 1px;
       }
     }

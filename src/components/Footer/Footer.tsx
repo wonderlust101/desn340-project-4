@@ -1,15 +1,12 @@
 import "./Footer.scss";
-
 import FacebookIcon from "../Icons/FacebookIcon";
 import InstagramIcon from "../Icons/InstagramIcon";
 import TwitterIcon from "../Icons/TwitterIcon";
 import YoutubeIcon from "../Icons/YoutubeIcon";
-
 import linksJSON from "../../data/siteLinks.json";
 
-const links: Links[] = linksJSON;
-
 export default function Footer() {
+    const links: Links[] = linksJSON;
 
     return (
         <footer className="footer grid-bleed">
@@ -20,26 +17,14 @@ export default function Footer() {
                     <div className="footer__main-section">
                         <div className="footer__contact">
                             <div>
-                                {/*Icon*/}
-
-                                <div>
-                                    <p>PO Box 1819 Station Main</p>
-                                    <p>Edmonton, Alberta</p>
-                                    <p>T5J 2P2</p>
-                                </div>
+                                <p className="footer__contact-text">PO Box 1819 Station Main</p>
+                                <p className="footer__contact-text">Edmonton, Alberta</p>
+                                <p className="footer__contact-text">T5J 2P2</p>
                             </div>
 
-                            <div>
-                                {/*Icon*/}
+                            <p className="footer__contact-text">+ 1 780 433-2453</p>
 
-                                <p>+ 1 780 433-2453</p>
-                            </div>
-
-                            <div>
-                                {/*Icon*/}
-
-                                <p>info@bikeedmonton.ca</p>
-                            </div>
+                            <p className="footer__contact-text">info@bikeedmonton.ca</p>
                         </div>
 
                         <div className="footer__links">
@@ -70,7 +55,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <p className='footer__acknowledgement'>
+                    <p className="footer__acknowledgement">
                         Bike Edmonton acknowledges that we are located on Treaty 6 territory, a traditional gathering
                         place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux,
                         Iroquois, Dene, Ojibway / Saulteaux / Anishinaabe, Inuit, and many others whose histories,
@@ -79,16 +64,28 @@ export default function Footer() {
                     </p>
 
                     <div className="footer__socials">
-                        <a href="#">
+                        <a
+                            href="#"
+                            aria-label="Go to Facebook Page"
+                        >
                             <FacebookIcon/>
                         </a>
-                        <a href="#">
+                        <a
+                            href="#"
+                            aria-label="Go to Twitter Page"
+                        >
                             <TwitterIcon/>
                         </a>
-                        <a href="#">
+                        <a
+                            href="#"
+                            aria-label="Go to Youtube Page"
+                        >
                             <YoutubeIcon/>
                         </a>
-                        <a href="#">
+                        <a
+                            href="#"
+                            aria-label="Go to Instagram Page"
+                        >
                             <InstagramIcon/>
                         </a>
                     </div>

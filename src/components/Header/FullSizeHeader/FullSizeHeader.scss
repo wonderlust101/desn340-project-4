@@ -1,16 +1,20 @@
 .fullSizeHeader {
   &__links {
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     
-    & > * a{
-      font-family: "Newake", sans-serif;
-      font-size: 1.25rem;
-      letter-spacing: 0.0625rem;
-      
-      &:hover {
-        text-decoration: underline solid $clr-black;
-      }
+    @include breakpoint(medium) {
+      gap: 4rem;
+    }
+  }
+
+  &__link {
+    font-family: 'Newake', sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 0.0625rem;
+
+    &:hover {
+      text-decoration: underline solid $clr-black;
     }
   }
 }

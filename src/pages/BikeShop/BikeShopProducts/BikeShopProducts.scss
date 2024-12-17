@@ -11,6 +11,10 @@
     padding: 1.5rem 0;
     border-top: solid 1px $clr-black;
     border-bottom: solid 1px $clr-black;
+    
+    @include breakpoint(medium) {
+      padding: 2rem 0;
+    }
   }
   
   &__filter {
@@ -39,9 +43,13 @@
     padding: 2rem 0;
 
     @include breakpoint(medium) {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       gap: unset;
       padding: 0 0 2rem;
+    }
+    
+    @include breakpoint(large) {
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 

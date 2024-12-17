@@ -1,5 +1,4 @@
 import "./HelpCenter.scss";
-
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import SectionHero from "../../components/SectionHero";
@@ -17,16 +16,17 @@ export default function HelpCenter() {
             <Header/>
 
             <main className="help grid-bleed">
-                <SectionHero 
+                <SectionHero
                     header="Help Centre"
                     imageUrl={sectionHero}
-                    imagePosition='center'
+                    imagePosition="center"
+                    imageAlt="A woman getting help from a mechanic to fix a bike."
                 />
-                
+
                 <TopicSearch/>
-                
+
                 <HelpTopics/>
-                
+
                 <FAQ/>
             </main>
 

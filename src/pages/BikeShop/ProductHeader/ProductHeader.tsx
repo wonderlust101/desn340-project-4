@@ -17,8 +17,9 @@ export default function ProductHeader({setCurrentSize, currentSize}: ProductHead
                     {bikeSizes.map((size, index) => (
                         <Button
                             key={index}
-                            variant={`button--white ${currentSize === `${size}` ? "active" : "inactive"}`}
+                            variant={`button--white button--narrow ${currentSize === `${size}` ? "active" : "inactive"}`}
                             onClick={() => setCurrentSize(size)}
+                            ariaLabel={`View all ${size} bikes.`}
                         >
                             {size} Bikes
                         </Button>
@@ -29,6 +30,7 @@ export default function ProductHeader({setCurrentSize, currentSize}: ProductHead
             <Button
                 variant="button--black button--full-width product-header__more-info-button"
                 location="#more-info"
+                ariaLabel='See more info.'
             >
                 <MoreInfoIcon/>
                 More Info

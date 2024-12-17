@@ -21,15 +21,13 @@
 
   &__text {
     grid-area: 2/2;
-    font-family: 'Newake', sans-serif;
     font-size: 2rem;
-    font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 1.1;
-    text-transform: uppercase;
 
     @include breakpoint(medium) {
-      font-size: 4rem;
+      font-size: 3.15rem;
+      letter-spacing: 0.2rem;
     }
     
     &--blue {

@@ -1,5 +1,3 @@
-@use  '../../../assets/styles/abstract' as a;
-
 .text-input {
   display: grid;
   gap: 0.5rem;
@@ -8,7 +6,7 @@
   &__field {
     width: 100%;
     padding: 1rem 2.5rem;
-    border: 1px solid a.$clr-black;
+    border: 1px solid $clr-black;
     outline: none !important;
     background-color: $clr-grey;
     
@@ -17,29 +15,13 @@
     }
 
     &::placeholder {
-      opacity: 0.4;
+      opacity: 0.6;
     }
 
     &:focus {
-      border: 1px solid #242742;
+      background-color: $clr-white;
+      border: 1px solid $clr-primary-color-blue;
     }
-
-    &--error,
-    &--error:focus {
-      border: 1px solid #FF6155;
-    }
-  }
-  
-  &__labels {
-    display: flex;
-    justify-content: space-between;
-    align-items: unset;
-  }
-  
-  &__label {
-    font-size: 0.75rem;
-    font-weight: 700;
-    line-height: 150%;
   }
   
   &__icon {
@@ -52,19 +34,5 @@
       left: 2rem;
       height: 1.5rem;
     }
-  }
-
-  &__error-icon {
-    display: none;
-    position: absolute;
-    right: 1.25rem;
-    bottom: 2.90rem;
-  }
-
-  &__status {
-    text-align: left;
-    font-size: 0.75rem;
-    font-weight: 700;
-    color: #FF6155;
   }
 }
